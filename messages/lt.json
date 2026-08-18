@@ -1,0 +1,146 @@
+{
+  "common": {
+    "appName": "Staliukas",
+    "tagline": "Atraskite geriausius Lietuvos restoranus",
+    "search": "Ieškoti restoranų...",
+    "book": "Rezervuoti",
+    "bookTable": "Rezervuoti stalą",
+    "viewDetails": "Plačiau",
+    "backToList": "Grįžti į sąrašą",
+    "loading": "Kraunama...",
+    "noResults": "Restoranų nerasta",
+    "noResultsDesc": "Pabandykite pakeisti paieškos kriterijus",
+    "reviews": "atsiliepimai",
+    "review": "atsiliepimas",
+    "perPerson": "žmogui",
+    "deposit": "Užstatas",
+    "free": "Nemokama"
+  },
+  "nav": {
+    "home": "Pradžia",
+    "restaurants": "Restoranai",
+    "about": "Apie mus",
+    "contact": "Kontaktai"
+  },
+  "filters": {
+    "title": "Filtrai",
+    "cuisine": "Virtuvė",
+    "city": "Miestas",
+    "neighborhood": "Rajonas",
+    "priceRange": "Kainų kategorija",
+    "vibes": "Nuotaika",
+    "clearAll": "Išvalyti filtrus",
+    "allCuisines": "Visos virtuvės",
+    "allCities": "Visi miestai",
+    "allNeighborhoods": "Visi rajonai",
+    "anyPrice": "Bet kokia kaina"
+  },
+  "cuisines": {
+    "lithuanian": "Lietuviška",
+    "italian": "Itališka",
+    "japanese": "Japoniška",
+    "french": "Prancūziška",
+    "georgian": "Gruzinietiška",
+    "mexican": "Meksikietiška",
+    "seafood": "Jūros gėrybės",
+    "steakhouse": "Kepsnių",
+    "vegetarian": "Vegetariška",
+    "international": "Tarptautinė"
+  },
+  "cities": {
+    "vilnius": "Vilnius",
+    "kaunas": "Kaunas",
+    "klaipeda": "Klaipėda"
+  },
+  "neighborhoods": {
+    "senamiestis": "Senamiestis",
+    "naujamiestis": "Naujamiestis",
+    "uzupis": "Užupis",
+    "snpiskes": "Šnipiškės",
+    "paupys": "Paupys"
+  },
+  "vibes": {
+    "terrace": "Lauko terasa",
+    "business-lunch": "Dienos pietūs",
+    "pet-friendly": "Gyvūnams draugiška",
+    "natural-wine": "Natūralus vynas",
+    "late-night-kitchen": "Vėlyva virtuvė"
+  },
+  "detail": {
+    "menuHighlights": "Meniu akcentai",
+    "reviews": "Atsiliepimai",
+    "openingHours": "Darbo laikas",
+    "address": "Adresas",
+    "phone": "Telefonas",
+    "viewOnMap": "Žiūrėti žemėlapyje",
+    "offPeakBanner": "Rezervuokite {startTime}–{endTime} ir gaukite {percentOff}% nuolaidą!"
+  },
+  "reservation": {
+    "title": "Rezervuoti stalą",
+    "date": "Data",
+    "time": "Laikas",
+    "partySize": "Žmonių skaičius",
+    "name": "Vardas",
+    "phone": "Telefonas",
+    "email": "El. paštas",
+    "specialRequests": "Specialūs pageidavimai",
+    "specialRequestsPlaceholder": "Alergijos, šventė, vaikų kėdutė...",
+    "submit": "Rezervuoti",
+    "person": "žm.",
+    "people": "žm.",
+    "discountApplied": "{percentOff}% nuolaida taikoma!",
+    "selectDate": "Pasirinkite datą",
+    "selectTime": "Pasirinkite laiką",
+    "selectPartySize": "Pasirinkite žmonių skaičių"
+  },
+  "payment": {
+    "title": "Užstato mokėjimas",
+    "subtitle": "Pasirinkite mokėjimo būdą",
+    "depositAmount": "Užstatas: {amount}",
+    "processing": "Apdorojama...",
+    "success": "Mokėjimas sėkmingas!",
+    "methods": {
+      "montonio": "Montonio",
+      "swedbank": "Swedbank",
+      "seb": "SEB",
+      "luminor": "Luminor"
+    }
+  },
+  "success": {
+    "title": "Rezervacija patvirtinta!",
+    "subtitle": "Jūsų stalas rezervuotas",
+    "restaurant": "Restoranas",
+    "date": "Data",
+    "time": "Laikas",
+    "partySize": "Žmonių skaičius",
+    "guest": "Svečias",
+    "discount": "Nuolaida",
+    "addToCalendar": "Pridėti į kalendorių",
+    "downloadIcs": "Atsisiųsti .ics failą",
+    "googleCalendar": "Google Calendar",
+    "backHome": "Grįžti į pradžią"
+  },
+  "map": {
+    "title": "Vilniaus restoranų žemėlapis",
+    "subtitle": "Naršykite restoranus žemėlapyje ir atraskite nuolaidas",
+    "restaurant": "Restoranas",
+    "withDiscount": "Su nuolaida",
+    "nav": "Žemėlapis"
+  },
+  "footer": {
+    "rights": "Visos teisės saugomos.",
+    "about": "Apie mus",
+    "contact": "Kontaktai",
+    "terms": "Naudojimo sąlygos",
+    "privacy": "Privatumo politika"
+  },
+  "days": {
+    "monday": "Pirmadienis",
+    "tuesday": "Antradienis",
+    "wednesday": "Trečiadienis",
+    "thursday": "Ketvirtadienis",
+    "friday": "Penktadienis",
+    "saturday": "Šeštadienis",
+    "sunday": "Sekmadienis"
+  }
+}

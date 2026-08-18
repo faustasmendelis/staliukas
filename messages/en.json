@@ -1,0 +1,146 @@
+{
+  "common": {
+    "appName": "Staliukas",
+    "tagline": "Discover the best restaurants in Lithuania",
+    "search": "Search restaurants...",
+    "book": "Book",
+    "bookTable": "Book a table",
+    "viewDetails": "View details",
+    "backToList": "Back to list",
+    "loading": "Loading...",
+    "noResults": "No restaurants found",
+    "noResultsDesc": "Try changing your search criteria",
+    "reviews": "reviews",
+    "review": "review",
+    "perPerson": "per person",
+    "deposit": "Deposit",
+    "free": "Free"
+  },
+  "nav": {
+    "home": "Home",
+    "restaurants": "Restaurants",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "filters": {
+    "title": "Filters",
+    "cuisine": "Cuisine",
+    "city": "City",
+    "neighborhood": "Neighborhood",
+    "priceRange": "Price range",
+    "vibes": "Vibes",
+    "clearAll": "Clear filters",
+    "allCuisines": "All cuisines",
+    "allCities": "All cities",
+    "allNeighborhoods": "All neighborhoods",
+    "anyPrice": "Any price"
+  },
+  "cuisines": {
+    "lithuanian": "Lithuanian",
+    "italian": "Italian",
+    "japanese": "Japanese",
+    "french": "French",
+    "georgian": "Georgian",
+    "mexican": "Mexican",
+    "seafood": "Seafood",
+    "steakhouse": "Steakhouse",
+    "vegetarian": "Vegetarian",
+    "international": "International"
+  },
+  "cities": {
+    "vilnius": "Vilnius",
+    "kaunas": "Kaunas",
+    "klaipeda": "Klaipėda"
+  },
+  "neighborhoods": {
+    "senamiestis": "Old Town",
+    "naujamiestis": "New Town",
+    "uzupis": "Užupis",
+    "snpiskes": "Šnipiškės",
+    "paupys": "Paupys"
+  },
+  "vibes": {
+    "terrace": "Outdoor terrace",
+    "business-lunch": "Business lunch",
+    "pet-friendly": "Pet-friendly",
+    "natural-wine": "Natural wine",
+    "late-night-kitchen": "Late night kitchen"
+  },
+  "detail": {
+    "menuHighlights": "Menu highlights",
+    "reviews": "Reviews",
+    "openingHours": "Opening hours",
+    "address": "Address",
+    "phone": "Phone",
+    "viewOnMap": "View on map",
+    "offPeakBanner": "Book {startTime}–{endTime} for {percentOff}% off food!"
+  },
+  "reservation": {
+    "title": "Book a table",
+    "date": "Date",
+    "time": "Time",
+    "partySize": "Party size",
+    "name": "Name",
+    "phone": "Phone",
+    "email": "Email",
+    "specialRequests": "Special requests",
+    "specialRequestsPlaceholder": "Allergies, celebration, high chair...",
+    "submit": "Book now",
+    "person": "person",
+    "people": "people",
+    "discountApplied": "{percentOff}% discount applied!",
+    "selectDate": "Select date",
+    "selectTime": "Select time",
+    "selectPartySize": "Select party size"
+  },
+  "payment": {
+    "title": "Deposit payment",
+    "subtitle": "Choose your payment method",
+    "depositAmount": "Deposit: {amount}",
+    "processing": "Processing...",
+    "success": "Payment successful!",
+    "methods": {
+      "montonio": "Montonio",
+      "swedbank": "Swedbank",
+      "seb": "SEB",
+      "luminor": "Luminor"
+    }
+  },
+  "success": {
+    "title": "Reservation confirmed!",
+    "subtitle": "Your table is booked",
+    "restaurant": "Restaurant",
+    "date": "Date",
+    "time": "Time",
+    "partySize": "Party size",
+    "guest": "Guest",
+    "discount": "Discount",
+    "addToCalendar": "Add to calendar",
+    "downloadIcs": "Download .ics file",
+    "googleCalendar": "Google Calendar",
+    "backHome": "Back to home"
+  },
+  "map": {
+    "title": "Vilnius Restaurant Map",
+    "subtitle": "Browse restaurants on the map and discover discounts",
+    "restaurant": "Restaurant",
+    "withDiscount": "With discount",
+    "nav": "Map"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "about": "About",
+    "contact": "Contact",
+    "terms": "Terms of service",
+    "privacy": "Privacy policy"
+  },
+  "days": {
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday"
+  }
+}

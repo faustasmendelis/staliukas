@@ -1,0 +1,690 @@
+[
+  {
+    "id": "1",
+    "slug": "senoji-trobele",
+    "name": "Senoji Trobelė",
+    "description": {
+      "lt": "Jaukus restoranas Vilniaus senamiestyje, siūlantis tradicinius lietuviškus patiekalus iš vietinių ūkininkų produktų. Autentiška atmosfera su medine apdaila ir gyva muzika penktadieniais.",
+      "en": "A cozy restaurant in Vilnius Old Town offering traditional Lithuanian dishes made from local farm produce. Authentic atmosphere with wooden décor and live music on Fridays."
+    },
+    "cuisine": "lithuanian",
+    "city": "vilnius",
+    "neighborhood": "senamiestis",
+    "address": "Pilies g. 16, Vilnius",
+    "phone": "+370 5 261 0808",
+    "priceRange": 2,
+    "rating": 4.6,
+    "reviewCount": 342,
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&h=500&fit=crop"
+    ],
+    "menuHighlights": [
+      { "lt": "Cepelinai su mėsos įdaru", "en": "Cepelinai with meat filling" },
+      { "lt": "Šaltibarščiai su bulvėmis", "en": "Cold beet soup with potatoes" },
+      { "lt": "Kibinai su aviena", "en": "Kibinai with lamb" },
+      { "lt": "Šakotis su uogų padažu", "en": "Tree cake with berry sauce" }
+    ],
+    "reviews": [
+      {
+        "author": "Marta K.",
+        "rating": 5,
+        "date": "2026-07-15",
+        "text": {
+          "lt": "Nuostabūs cepelinai! Geriausi, kokius esu ragavusi Vilniuje. Aptarnavimas labai draugiškas.",
+          "en": "Amazing cepelinai! Best I've ever had in Vilnius. Service was very friendly."
+        }
+      },
+      {
+        "author": "Jonas P.",
+        "rating": 4,
+        "date": "2026-06-20",
+        "text": {
+          "lt": "Puiki vieta pietums su šeima. Porcijos didelės, kainos protingos.",
+          "en": "Great place for family lunch. Generous portions, reasonable prices."
+        }
+      }
+    ],
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-23:00",
+      "saturday": "12:00-23:00",
+      "sunday": "12:00-21:00"
+    },
+    "coordinates": { "lat": 54.6834, "lng": 25.2879 },
+    "vibeTags": ["terrace", "pet-friendly"],
+    "offPeakDiscount": {
+      "startTime": "15:00",
+      "endTime": "17:00",
+      "percentOff": 20,
+      "label": { "lt": "20% nuolaida maistui", "en": "20% off food" }
+    }
+  },
+  {
+    "id": "2",
+    "slug": "ertlio-namas",
+    "name": "Ertlio Namas",
+    "description": {
+      "lt": "Elegantiška tarptautinė virtuvė istoriniame pastate. Sezoninis meniu keičiasi kas mėnesį, naudojant geriausius Lietuvos ingredientus.",
+      "en": "Elegant international cuisine in a historic building. Seasonal menu changes monthly, using the finest Lithuanian ingredients."
+    },
+    "cuisine": "international",
+    "city": "vilnius",
+    "neighborhood": "senamiestis",
+    "address": "Šv. Jono g. 7, Vilnius",
+    "phone": "+370 5 212 4455",
+    "priceRange": 3,
+    "rating": 4.8,
+    "reviewCount": 218,
+    "images": [
+      "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=800&h=500&fit=crop"
+    ],
+    "menuHighlights": [
+      { "lt": "Elnio karpaččio su trufeliais", "en": "Venison carpaccio with truffles" },
+      { "lt": "Lašišos tartaras", "en": "Salmon tartare" },
+      { "lt": "Antienos krūtinėlė su vyšnių padažu", "en": "Duck breast with cherry sauce" }
+    ],
+    "reviews": [
+      {
+        "author": "Rūta S.",
+        "rating": 5,
+        "date": "2026-08-01",
+        "text": {
+          "lt": "Aukščiausios klasės restoranas. Kiekvienas patiekalas – meno kūrinys.",
+          "en": "Top-class restaurant. Every dish is a work of art."
+        }
+      }
+    ],
+    "openingHours": {
+      "monday": "closed",
+      "tuesday": "17:00-23:00",
+      "wednesday": "17:00-23:00",
+      "thursday": "17:00-23:00",
+      "friday": "17:00-00:00",
+      "saturday": "12:00-00:00",
+      "sunday": "12:00-22:00"
+    },
+    "coordinates": { "lat": 54.6826, "lng": 25.2882 },
+    "vibeTags": ["natural-wine"],
+    "offPeakDiscount": {
+      "startTime": "17:00",
+      "endTime": "18:30",
+      "percentOff": 15,
+      "label": { "lt": "15% nuolaida ankstyvajai vakarienei", "en": "15% off early dinner" }
+    }
+  },
+  {
+    "id": "3",
+    "slug": "gaspars",
+    "name": "Gaspar's",
+    "description": {
+      "lt": "Prancūziška bistro atmosfera Naujamiestio širdyje. Lengvi pietūs, puikūs vynai ir desertas, kuris tirpsta burnoje.",
+      "en": "French bistro atmosphere in the heart of Naujamiestis. Light lunches, excellent wines, and desserts that melt in your mouth."
+    },
+    "cuisine": "french",
+    "city": "vilnius",
+    "neighborhood": "naujamiestis",
+    "address": "Jogailos g. 4, Vilnius",
+    "phone": "+370 5 212 7171",
+    "priceRange": 3,
+    "rating": 4.5,
+    "reviewCount": 176,
+    "images": [
+      "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=800&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&h=500&fit=crop"
+    ],
+    "menuHighlights": [
+      { "lt": "Svogūnų sriuba su sūrio skrebučiu", "en": "French onion soup with cheese crouton" },
+      { "lt": "Ančiukų kepenėlių paštetas", "en": "Duck liver pâté" },
+      { "lt": "Crème brûlée su levandomis", "en": "Lavender crème brûlée" }
+    ],
+    "reviews": [
+      {
+        "author": "Lukas M.",
+        "rating": 5,
+        "date": "2026-07-28",
+        "text": {
+          "lt": "Tikra Paryžiaus atmosfera Vilniuje. Vynų pasirinkimas puikus!",
+          "en": "True Parisian atmosphere in Vilnius. Excellent wine selection!"
+        }
+      }
+    ],
+    "openingHours": {
+      "monday": "10:00-22:00",
+      "tuesday": "10:00-22:00",
+      "wednesday": "10:00-22:00",
+      "thursday": "10:00-22:00",
+      "friday": "10:00-23:00",
+      "saturday": "10:00-23:00",
+      "sunday": "10:00-21:00"
+    },
+    "coordinates": { "lat": 54.6870, "lng": 25.2780 },
+    "vibeTags": ["business-lunch", "natural-wine"],
+    "offPeakDiscount": {
+      "startTime": "14:30",
+      "endTime": "17:00",
+      "percentOff": 25,
+      "label": { "lt": "25% nuolaida popietiniam meniu", "en": "25% off afternoon menu" }
+    }
+  },
+  {
+    "id": "4",
+    "slug": "sakura-vilnius",
+    "name": "Sakura Vilnius",
+    "description": {
+      "lt": "Autentiška japoniška virtuvė su šviežiu sushi baru. Minimalistinis interjeras ir zen sodas lauko terasoje.",
+      "en": "Authentic Japanese cuisine with a fresh sushi bar. Minimalist interior and zen garden on the outdoor terrace."
+    },
+    "cuisine": "japanese",
+    "city": "vilnius",
+    "neighborhood": "paupys",
+    "address": "Maironio g. 11, Vilnius",
+    "phone": "+370 5 233 4488",
+    "priceRange": 2,
+    "rating": 4.4,
+    "reviewCount": 289,
+    "images": [
+      "https://images.unsplash.com/photo-1579027989536-b7b1f875659b?w=800&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&h=500&fit=crop"
+    ],
+    "menuHighlights": [
+      { "lt": "Omakase rinkinys (8 dalys)", "en": "Omakase set (8 pieces)" },
+      { "lt": "Tonkotsu ramenas", "en": "Tonkotsu ramen" },
+      { "lt": "Tempura krevetės", "en": "Tempura shrimp" }
+    ],
+    "reviews": [
+      {
+        "author": "Aistė V.",
+        "rating": 4,
+        "date": "2026-07-10",
+        "text": {
+          "lt": "Labai šviežios sušių žuvys. Vienintelis minusas – kartais reikia laukti staliuko.",
+          "en": "Very fresh sushi fish. Only downside – sometimes you need to wait for a table."
+        }
+      },
+      {
+        "author": "Tom B.",
+        "rating": 5,
+        "date": "2026-06-28",
+        "text": {
+          "lt": "Geriausias ramenas Vilniuje, be jokių abejonių!",
+          "en": "Best ramen in Vilnius, no doubt about it!"
+        }
+      }
+    ],
+    "openingHours": {
+      "monday": "12:00-22:00",
+      "tuesday": "12:00-22:00",
+      "wednesday": "12:00-22:00",
+      "thursday": "12:00-22:00",
+      "friday": "12:00-23:00",
+      "saturday": "12:00-23:00",
+      "sunday": "12:00-21:00"
+    },
+    "coordinates": { "lat": 54.6756, "lng": 25.2902 },
+    "vibeTags": ["terrace"]
+  },
+  {
+    "id": "5",
+    "slug": "mamma-mia-vilnius",
+    "name": "Mamma Mia",
+    "description": {
+      "lt": "Šeimos restoranas su itališka pica, kepama malkinėje krosnyje. Draugiška atmosfera vaikams ir suaugusiems.",
+      "en": "Family restaurant with Italian pizza baked in a wood-fired oven. Friendly atmosphere for kids and adults alike."
+    },
+    "cuisine": "italian",
+    "city": "vilnius",
+    "neighborhood": "uzupis",
+    "address": "Užupio g. 28, Vilnius",
+    "phone": "+370 5 215 8800",
+    "priceRange": 1,
+    "rating": 4.3,
+    "reviewCount": 512,
+    "images": [
+      "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=800&h=500&fit=crop"
+    ],
+    "menuHighlights": [
+      { "lt": "Margherita pica", "en": "Margherita pizza" },
+      { "lt": "Carbonara pasta", "en": "Carbonara pasta" },
+      { "lt": "Tiramisu", "en": "Tiramisu" }
+    ],
+    "reviews": [
+      {
+        "author": "Giedrė R.",
+        "rating": 4,
+        "date": "2026-08-05",
+        "text": {
+          "lt": "Puiki vieta su vaikais. Pica tikrai gera, ypač su trufeliais.",
+          "en": "Great place with kids. Pizza is really good, especially with truffles."
+        }
+      }
+    ],
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-23:00",
+      "saturday": "11:00-23:00",
+      "sunday": "11:00-21:00"
+    },
+    "coordinates": { "lat": 54.6812, "lng": 25.2975 },
+    "vibeTags": ["pet-friendly", "terrace"]
+  },
+  {
+    "id": "6",
+    "slug": "zalia-varlyte",
+    "name": "Žalia Varlytė",
+    "description": {
+      "lt": "Vegetariškas ir veganiškas restoranas Šnipiškėse. Sveiki, spalvingi patiekalai iš sezoninių daržovių su kūrybišku požiūriu.",
+      "en": "Vegetarian and vegan restaurant in Šnipiškės. Healthy, colorful dishes from seasonal vegetables with a creative approach."
+    },
+    "cuisine": "vegetarian",
+    "city": "vilnius",
+    "neighborhood": "snpiskes",
+    "address": "Rinktinės g. 5, Vilnius",
+    "phone": "+370 5 240 1199",
+    "priceRange": 2,
+    "rating": 4.7,
+    "reviewCount": 194,
+    "images": [
+      "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1543362906-acfc16c67564?w=800&h=500&fit=crop"
+    ],
+    "menuHighlights": [
+      { "lt": "Burokėlių burgeris su avokado padažu", "en": "Beetroot burger with avocado sauce" },
+      { "lt": "Quinoa salotų dubuo", "en": "Quinoa salad bowl" },
+      { "lt": "Šokoladinis tortas (veganiška)", "en": "Chocolate cake (vegan)" }
+    ],
+    "reviews": [
+      {
+        "author": "Inga D.",
+        "rating": 5,
+        "date": "2026-07-22",
+        "text": {
+          "lt": "Net ne vegetaras, bet čia valgau su malonumu! Kūrybiški patiekalai.",
+          "en": "Not even a vegetarian, but I eat here with pleasure! Creative dishes."
+        }
+      }
+    ],
+    "openingHours": {
+      "monday": "10:00-21:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "10:00-21:00",
+      "thursday": "10:00-21:00",
+      "friday": "10:00-22:00",
+      "saturday": "10:00-22:00",
+      "sunday": "11:00-20:00"
+    },
+    "coordinates": { "lat": 54.6965, "lng": 25.2780 },
+    "vibeTags": ["business-lunch", "pet-friendly"],
+    "offPeakDiscount": {
+      "startTime": "14:00",
+      "endTime": "16:00",
+      "percentOff": 20,
+      "label": { "lt": "20% nuolaida popietiniams patiekalams", "en": "20% off afternoon dishes" }
+    }
+  },
+  {
+    "id": "7",
+    "slug": "uoksas",
+    "name": "Uoksas",
+    "description": {
+      "lt": "Modernios lietuviškos virtuvės lyderis Kaune. Šefas Liutauras Čeprackas kuria patiekalus iš laukinių augalų ir sezoninių produktų.",
+      "en": "Leading modern Lithuanian cuisine in Kaunas. Chef Liutauras Čeprackas creates dishes from wild plants and seasonal produce."
+    },
+    "cuisine": "lithuanian",
+    "city": "kaunas",
+    "address": "Muitinės g. 9, Kaunas",
+    "phone": "+370 37 200 900",
+    "priceRange": 3,
+    "rating": 4.9,
+    "reviewCount": 156,
+    "images": [
+      "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=800&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&h=500&fit=crop"
+    ],
+    "menuHighlights": [
+      { "lt": "Degustacinis meniu (7 patiekalai)", "en": "Tasting menu (7 courses)" },
+      { "lt": "Fermentuotos daržovės su žole", "en": "Fermented vegetables with herbs" },
+      { "lt": "Laukinių grybų sriuba", "en": "Wild mushroom soup" }
+    ],
+    "reviews": [
+      {
+        "author": "Darius L.",
+        "rating": 5,
+        "date": "2026-08-10",
+        "text": {
+          "lt": "Michelin lygio patirtis Kaune. Degustacinis meniu – būtinas!",
+          "en": "Michelin-level experience in Kaunas. The tasting menu is a must!"
+        }
+      }
+    ],
+    "openingHours": {
+      "monday": "closed",
+      "tuesday": "closed",
+      "wednesday": "18:00-23:00",
+      "thursday": "18:00-23:00",
+      "friday": "18:00-00:00",
+      "saturday": "12:00-00:00",
+      "sunday": "12:00-20:00"
+    },
+    "coordinates": { "lat": 54.8985, "lng": 23.8858 },
+    "vibeTags": ["natural-wine"]
+  },
+  {
+    "id": "8",
+    "slug": "monte-pacis",
+    "name": "Monte Pacis",
+    "description": {
+      "lt": "Pažaislio vienuolyno restorane – tarptautinė virtuvė su vaizdu į Kauno marias. Ramus poilsis gamtoje.",
+      "en": "International cuisine in the Pažaislis Monastery restaurant – with views of Kaunas Lagoon. Peaceful retreat in nature."
+    },
+    "cuisine": "international",
+    "city": "kaunas",
+    "address": "T. Masiulio g. 31, Kaunas",
+    "phone": "+370 37 335 777",
+    "priceRange": 3,
+    "rating": 4.6,
+    "reviewCount": 98,
+    "images": [
+      "https://images.unsplash.com/photo-1592861956120-e524fc739696?w=800&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&h=500&fit=crop"
+    ],
+    "menuHighlights": [
+      { "lt": "Keptas upėtakis su citrinų sviestu", "en": "Grilled trout with lemon butter" },
+      { "lt": "Jautienos filė su raudonojo vyno padažu", "en": "Beef fillet with red wine sauce" },
+      { "lt": "Panna cotta su sezoniniais vaisiais", "en": "Panna cotta with seasonal fruits" }
+    ],
+    "reviews": [
+      {
+        "author": "Kristina J.",
+        "rating": 5,
+        "date": "2026-06-15",
+        "text": {
+          "lt": "Magiškas vakaras prie Kauno marių. Patiekalai ir vaizdai – nepakartojami.",
+          "en": "Magical evening by Kaunas Lagoon. Dishes and views – unforgettable."
+        }
+      }
+    ],
+    "openingHours": {
+      "monday": "closed",
+      "tuesday": "12:00-21:00",
+      "wednesday": "12:00-21:00",
+      "thursday": "12:00-21:00",
+      "friday": "12:00-22:00",
+      "saturday": "12:00-22:00",
+      "sunday": "12:00-20:00"
+    },
+    "coordinates": { "lat": 54.8740, "lng": 24.0110 },
+    "vibeTags": ["terrace"]
+  },
+  {
+    "id": "9",
+    "slug": "pieno-baras",
+    "name": "Pieno Baras",
+    "description": {
+      "lt": "Nostalgiška pieno baro atmosfera su moderniais lietuviškais pietumis. Greiti, skanūs ir nebrangūs dienos pietūs.",
+      "en": "Nostalgic Soviet-era 'milk bar' vibe with modern Lithuanian lunches. Quick, tasty, and affordable daily meals."
+    },
+    "cuisine": "lithuanian",
+    "city": "kaunas",
+    "address": "Vilniaus g. 21, Kaunas",
+    "phone": "+370 37 422 811",
+    "priceRange": 1,
+    "rating": 4.2,
+    "reviewCount": 467,
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=800&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&h=500&fit=crop"
+    ],
+    "menuHighlights": [
+      { "lt": "Varškėčiai su grietine", "en": "Curd pancakes with sour cream" },
+      { "lt": "Bulviniai blynai", "en": "Potato pancakes" },
+      { "lt": "Kopūstų sriuba", "en": "Cabbage soup" }
+    ],
+    "reviews": [
+      {
+        "author": "Andrius K.",
+        "rating": 4,
+        "date": "2026-07-01",
+        "text": {
+          "lt": "Kaip pas mamą! Puikūs pietūs už labai gerą kainą.",
+          "en": "Just like mom's cooking! Great lunch at a very good price."
+        }
+      }
+    ],
+    "openingHours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-18:00",
+      "saturday": "09:00-16:00",
+      "sunday": "closed"
+    },
+    "coordinates": { "lat": 54.8972, "lng": 23.8862 },
+    "vibeTags": ["business-lunch"],
+    "offPeakDiscount": {
+      "startTime": "14:00",
+      "endTime": "16:00",
+      "percentOff": 15,
+      "label": { "lt": "15% nuolaida po 14:00", "en": "15% off after 2 PM" }
+    }
+  },
+  {
+    "id": "10",
+    "slug": "kaunas-bbq",
+    "name": "Kaunas BBQ",
+    "description": {
+      "lt": "Kepsnių restoranas su amerikietišku BBQ stiliumi ir lietuvišku skoniu. Rūkyta mėsa, naminio alaus pasirinkimas.",
+      "en": "Steakhouse with American BBQ style and Lithuanian flavor. Smoked meats and a craft beer selection."
+    },
+    "cuisine": "steakhouse",
+    "city": "kaunas",
+    "address": "Laisvės al. 36, Kaunas",
+    "phone": "+370 37 333 444",
+    "priceRange": 2,
+    "rating": 4.4,
+    "reviewCount": 321,
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1558030006-450675393462?w=800&h=500&fit=crop"
+    ],
+    "menuHighlights": [
+      { "lt": "12 valandų rūkyti šonkauliai", "en": "12-hour smoked ribs" },
+      { "lt": "Black Angus kepsnys 300g", "en": "Black Angus steak 300g" },
+      { "lt": "Naminis alus (4 rūšių)", "en": "Craft beer (4 varieties)" }
+    ],
+    "reviews": [
+      {
+        "author": "Tomas G.",
+        "rating": 4,
+        "date": "2026-07-18",
+        "text": {
+          "lt": "Šonkauliai tirpsta burnoje! Alus taip pat puikus.",
+          "en": "Ribs melt in your mouth! Beer is also excellent."
+        }
+      }
+    ],
+    "openingHours": {
+      "monday": "12:00-22:00",
+      "tuesday": "12:00-22:00",
+      "wednesday": "12:00-22:00",
+      "thursday": "12:00-22:00",
+      "friday": "12:00-00:00",
+      "saturday": "12:00-00:00",
+      "sunday": "12:00-21:00"
+    },
+    "coordinates": { "lat": 54.8962, "lng": 23.9126 },
+    "vibeTags": ["late-night-kitchen", "terrace"]
+  },
+  {
+    "id": "11",
+    "slug": "friedricho-pasazas",
+    "name": "Friedricho Pasažas",
+    "description": {
+      "lt": "Jūros gėrybių restoranas Klaipėdos senamiestyje. Šviežios Baltijos jūros žuvys ir vėžiagyviai kiekvieną dieną.",
+      "en": "Seafood restaurant in Klaipėda Old Town. Fresh Baltic Sea fish and shellfish every day."
+    },
+    "cuisine": "seafood",
+    "city": "klaipeda",
+    "address": "Tiltų g. 26A, Klaipėda",
+    "phone": "+370 46 410 215",
+    "priceRange": 2,
+    "rating": 4.5,
+    "reviewCount": 245,
+    "images": [
+      "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1534604973900-c43ab4c2e0ab?w=800&h=500&fit=crop"
+    ],
+    "menuHighlights": [
+      { "lt": "Rūkyta ungurys", "en": "Smoked eel" },
+      { "lt": "Krevetės su česnako sviestu", "en": "Shrimp with garlic butter" },
+      { "lt": "Žuvienė pagal senovinę receptą", "en": "Fish soup from an old recipe" }
+    ],
+    "reviews": [
+      {
+        "author": "Vilma R.",
+        "rating": 5,
+        "date": "2026-07-25",
+        "text": {
+          "lt": "Geriausios jūros gėrybės Klaipėdoje! Šviežumas jaučiasi kiekviename kąsnyje.",
+          "en": "Best seafood in Klaipėda! Freshness in every bite."
+        }
+      }
+    ],
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-23:00",
+      "saturday": "11:00-23:00",
+      "sunday": "12:00-21:00"
+    },
+    "coordinates": { "lat": 55.7108, "lng": 21.1350 },
+    "vibeTags": ["terrace", "natural-wine"],
+    "offPeakDiscount": {
+      "startTime": "15:00",
+      "endTime": "17:30",
+      "percentOff": 20,
+      "label": { "lt": "20% nuolaida popietiniam meniu", "en": "20% off afternoon menu" }
+    }
+  },
+  {
+    "id": "12",
+    "slug": "stora-antis",
+    "name": "Stora Antis",
+    "description": {
+      "lt": "Tradicinė lietuviška virtuvė prie Klaipėdos pilies. Rūšiuoti lietuviški patiekalai su šiuolaikišku prisilietimu.",
+      "en": "Traditional Lithuanian cuisine near Klaipėda Castle. Classic Lithuanian dishes with a modern touch."
+    },
+    "cuisine": "lithuanian",
+    "city": "klaipeda",
+    "address": "Turgaus g. 15, Klaipėda",
+    "phone": "+370 46 311 555",
+    "priceRange": 2,
+    "rating": 4.3,
+    "reviewCount": 189,
+    "images": [
+      "https://images.unsplash.com/photo-1590846406792-0adc7f938f1d?w=800&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1587899897387-091ebd01a6b2?w=800&h=500&fit=crop"
+    ],
+    "menuHighlights": [
+      { "lt": "Skilandis su duona", "en": "Skilandis with bread" },
+      { "lt": "Bulvių plokštainis", "en": "Potato pudding" },
+      { "lt": "Medaus tortas", "en": "Honey cake" }
+    ],
+    "reviews": [
+      {
+        "author": "Mantas B.",
+        "rating": 4,
+        "date": "2026-06-30",
+        "text": {
+          "lt": "Tikra lietuviška dvasia. Bulvių plokštainis – geriausias mieste!",
+          "en": "True Lithuanian spirit. Potato pudding – best in the city!"
+        }
+      }
+    ],
+    "openingHours": {
+      "monday": "11:00-21:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "11:00-21:00",
+      "friday": "11:00-22:00",
+      "saturday": "11:00-22:00",
+      "sunday": "11:00-20:00"
+    },
+    "coordinates": { "lat": 55.7127, "lng": 21.1317 },
+    "vibeTags": ["pet-friendly"]
+  },
+  {
+    "id": "13",
+    "slug": "monta",
+    "name": "Monta",
+    "description": {
+      "lt": "Gruziniška virtuvė Klaipėdoje – chačapuri, chinkali ir gruziniški vynai. Šilta, svetinga atmosfera.",
+      "en": "Georgian cuisine in Klaipėda – khachapuri, khinkali, and Georgian wines. Warm, welcoming atmosphere."
+    },
+    "cuisine": "georgian",
+    "city": "klaipeda",
+    "address": "Manto g. 23, Klaipėda",
+    "phone": "+370 46 255 111",
+    "priceRange": 1,
+    "rating": 4.6,
+    "reviewCount": 378,
+    "images": [
+      "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1529543544282-ea99407407c4?w=800&h=500&fit=crop"
+    ],
+    "menuHighlights": [
+      { "lt": "Adžaruli chačapuri", "en": "Adjarian khachapuri" },
+      { "lt": "Chinkali (10 vnt.)", "en": "Khinkali (10 pcs)" },
+      { "lt": "Šašlykas su tkemali padažu", "en": "Shashlik with tkemali sauce" }
+    ],
+    "reviews": [
+      {
+        "author": "Elena S.",
+        "rating": 5,
+        "date": "2026-08-12",
+        "text": {
+          "lt": "Autentiškiausias gruziniškas maistas Lietuvoje! Didžiulės porcijos.",
+          "en": "Most authentic Georgian food in Lithuania! Huge portions."
+        }
+      },
+      {
+        "author": "Petras V.",
+        "rating": 4,
+        "date": "2026-07-05",
+        "text": {
+          "lt": "Chinkali – fantastiški. Verta atvažiuoti net iš Vilniaus!",
+          "en": "Khinkali are fantastic. Worth the trip from Vilnius!"
+        }
+      }
+    ],
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-23:00",
+      "saturday": "11:00-23:00",
+      "sunday": "11:00-21:00"
+    },
+    "coordinates": { "lat": 55.7095, "lng": 21.1380 },
+    "vibeTags": ["late-night-kitchen", "pet-friendly"],
+    "offPeakDiscount": {
+      "startTime": "16:00",
+      "endTime": "18:00",
+      "percentOff": 15,
+      "label": { "lt": "15% nuolaida vakarienei", "en": "15% off dinner" }
+    }
+  }
+]
