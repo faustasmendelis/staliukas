@@ -121,11 +121,15 @@
     "backHome": "Grįžti į pradžią"
   },
   "map": {
-    "title": "Vilniaus restoranų žemėlapis",
+    "title": "Restoranų žemėlapis",
     "subtitle": "Naršykite restoranus žemėlapyje ir atraskite nuolaidas",
     "restaurant": "Restoranas",
     "withDiscount": "Su nuolaida",
-    "nav": "Žemėlapis"
+    "nav": "Žemėlapis",
+    "nearMe": "Šalia manęs",
+    "showDeals": "Nuolaidos",
+    "locationDenied": "Prieiga prie vietos atmesta",
+    "allCities": "Visi miestai"
   },
   "footer": {
     "rights": "Visos teisės saugomos.",

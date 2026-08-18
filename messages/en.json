@@ -121,11 +121,15 @@
     "backHome": "Back to home"
   },
   "map": {
-    "title": "Vilnius Restaurant Map",
+    "title": "Restaurant Map",
     "subtitle": "Browse restaurants on the map and discover discounts",
     "restaurant": "Restaurant",
     "withDiscount": "With discount",
-    "nav": "Map"
+    "nav": "Map",
+    "nearMe": "Near me",
+    "showDeals": "Deals",
+    "locationDenied": "Location access denied",
+    "allCities": "All cities"
   },
   "footer": {
     "rights": "All rights reserved.",
