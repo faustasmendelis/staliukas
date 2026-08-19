@@ -97,7 +97,7 @@ export default function MapPopupCard({
           href={`/${locale}/restaurants/${r.slug}`}
           className="mt-4 w-full inline-flex items-center justify-center px-4 py-2.5 rounded-lg bg-primary text-white text-sm font-medium hover:bg-primary-dark transition-colors"
         >
-          {t("common.viewDetails")}
+          {t("common.bookTable")}
         </Link>
       </div>
     </div>

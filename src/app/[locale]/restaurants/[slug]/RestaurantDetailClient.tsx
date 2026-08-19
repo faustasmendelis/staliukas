@@ -8,6 +8,7 @@ import StarRating from "@/components/ui/StarRating";
 import RestaurantGallery from "@/components/restaurants/RestaurantGallery";
 import ReviewPreview from "@/components/restaurants/ReviewPreview";
 import ReservationForm from "@/components/reservation/ReservationForm";
+import NewsletterSignup from "@/components/reservation/NewsletterSignup";
 
 interface Props {
   restaurant: Restaurant;
@@ -146,8 +147,11 @@ export default function RestaurantDetailClient({ restaurant }: Props) {
         </div>
 
         <div className="mt-8 lg:mt-0">
-          <div className="lg:sticky lg:top-24 bg-card-bg border border-border rounded-xl p-6">
-            <ReservationForm restaurant={r} />
+          <div className="lg:sticky lg:top-24 space-y-4">
+            <div className="bg-card-bg border border-border rounded-xl p-6">
+              <ReservationForm restaurant={r} />
+            </div>
+            <NewsletterSignup />
           </div>
         </div>
       </div>
