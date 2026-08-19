@@ -54,7 +54,7 @@ export default function HomePage() {
       <section className="bg-gradient-to-br from-primary-dark to-primary text-white py-16 sm:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <span className="inline-block bg-white/20 text-white text-sm font-medium px-4 py-1.5 rounded-full mb-4 backdrop-blur-sm">
-            {t("signup.comingSoon")} {t("signup.earlyAccess")}
+            {t("signup.comingSoon")}
           </span>
           <h1 className="text-3xl sm:text-5xl font-bold mb-4">
             {t("common.appName")}

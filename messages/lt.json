@@ -134,13 +134,11 @@
   },
   "signup": {
     "comingSoon": "Greitai!",
-    "subtitle": "Užsiregistruokite ir būkite pirmi, kurie rezervuos stalus geriausiuose Lietuvos restoranuose",
-    "name": "Vardas",
+    "subtitle": "Įveskite el. paštą, jei norite sužinoti apie naujienas",
     "email": "El. paštas",
-    "submit": "Užsiregistruoti",
-    "success": "Jūs sąraše!",
-    "successDesc": "Praneš jums, kai pradėsime veikti",
-    "earlyAccess": "Išankstinė prieiga"
+    "submit": "Prenumeruoti",
+    "success": "Ačiū!",
+    "successDesc": "Pranešime apie naujienas"
   },
   "partner": {
     "title": "Prisijunkite prie Staliukas",

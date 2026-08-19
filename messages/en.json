@@ -134,13 +134,11 @@
   },
   "signup": {
     "comingSoon": "Coming soon!",
-    "subtitle": "Sign up to be the first to book tables at the best restaurants in Lithuania",
-    "name": "Name",
+    "subtitle": "Enter your email to hear about updates",
     "email": "Email",
-    "submit": "Sign up",
-    "success": "You're on the list!",
-    "successDesc": "We'll notify you when we launch",
-    "earlyAccess": "Early access"
+    "submit": "Subscribe",
+    "success": "Thanks!",
+    "successDesc": "We'll keep you posted"
   },
   "partner": {
     "title": "Join Staliukas",
