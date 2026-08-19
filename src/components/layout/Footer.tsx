@@ -1,9 +1,12 @@
 "use client";
 
 import { useTranslations } from "next-intl";
+import { useParams } from "next/navigation";
+import Link from "next/link";
 
 export default function Footer() {
   const t = useTranslations();
+  const { locale } = useParams<{ locale: string }>();
 
   return (
     <footer className="bg-card-bg border-t border-border mt-12">
@@ -16,6 +19,9 @@ export default function Footer() {
             </span>
           </div>
           <div className="flex gap-6 text-sm text-muted">
+            <Link href={`/${locale}/restaurants/register`} className="hover:text-foreground transition-colors">
+              {t("nav.forRestaurants")}
+            </Link>
             <span>{t("footer.about")}</span>
             <span>{t("footer.contact")}</span>
             <span>{t("footer.terms")}</span>

@@ -33,6 +33,12 @@ export default function Header() {
             >
               📍 {t("map.nav")}
             </Link>
+            <Link
+              href={`/${locale}/restaurants/register`}
+              className="text-accent hover:text-accent/80 font-medium transition-colors"
+            >
+              {t("nav.forRestaurants")}
+            </Link>
           </nav>
 
           <LanguageSwitcher />

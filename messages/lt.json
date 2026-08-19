@@ -20,7 +20,8 @@
     "home": "Pradžia",
     "restaurants": "Restoranai",
     "about": "Apie mus",
-    "contact": "Kontaktai"
+    "contact": "Kontaktai",
+    "forRestaurants": "Restoranams"
   },
   "filters": {
     "title": "Filtrai",
@@ -130,6 +131,32 @@
     "showDeals": "Nuolaidos",
     "locationDenied": "Prieiga prie vietos atmesta",
     "allCities": "Visi miestai"
+  },
+  "signup": {
+    "comingSoon": "Greitai!",
+    "subtitle": "Užsiregistruokite ir būkite pirmi, kurie rezervuos stalus geriausiuose Lietuvos restoranuose",
+    "name": "Vardas",
+    "email": "El. paštas",
+    "submit": "Užsiregistruoti",
+    "success": "Jūs sąraše!",
+    "successDesc": "Praneš jums, kai pradėsime veikti",
+    "earlyAccess": "Išankstinė prieiga"
+  },
+  "partner": {
+    "title": "Prisijunkite prie Staliukas",
+    "subtitle": "Pasiekite naujus klientus ir užpildykite laisvus stalus ne piko metu",
+    "benefit1": "Pasiekite tūkstančius naujų klientų",
+    "benefit2": "Užpildykite laisvus stalus su išmaniosiomis nuolaidomis",
+    "benefit3": "Paprastas ir greitas prisijungimas",
+    "restaurantName": "Restorano pavadinimas",
+    "contactName": "Kontaktinis asmuo",
+    "phone": "Telefonas",
+    "email": "El. paštas",
+    "city": "Miestas",
+    "message": "Žinutė (neprivaloma)",
+    "submit": "Registruotis",
+    "success": "Ačiū!",
+    "successDesc": "Susisieksime su jumis artimiausiu metu"
   },
   "footer": {
     "rights": "Visos teisės saugomos.",

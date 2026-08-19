@@ -20,7 +20,8 @@
     "home": "Home",
     "restaurants": "Restaurants",
     "about": "About",
-    "contact": "Contact"
+    "contact": "Contact",
+    "forRestaurants": "For Restaurants"
   },
   "filters": {
     "title": "Filters",
@@ -130,6 +131,32 @@
     "showDeals": "Deals",
     "locationDenied": "Location access denied",
     "allCities": "All cities"
+  },
+  "signup": {
+    "comingSoon": "Coming soon!",
+    "subtitle": "Sign up to be the first to book tables at the best restaurants in Lithuania",
+    "name": "Name",
+    "email": "Email",
+    "submit": "Sign up",
+    "success": "You're on the list!",
+    "successDesc": "We'll notify you when we launch",
+    "earlyAccess": "Early access"
+  },
+  "partner": {
+    "title": "Join Staliukas",
+    "subtitle": "Reach new customers and fill your off-peak tables",
+    "benefit1": "Reach thousands of new customers",
+    "benefit2": "Fill empty tables with smart discounts",
+    "benefit3": "Simple and quick onboarding",
+    "restaurantName": "Restaurant name",
+    "contactName": "Contact person",
+    "phone": "Phone",
+    "email": "Email",
+    "city": "City",
+    "message": "Message (optional)",
+    "submit": "Register",
+    "success": "Thank you!",
+    "successDesc": "We'll be in touch soon"
   },
   "footer": {
     "rights": "All rights reserved.",
