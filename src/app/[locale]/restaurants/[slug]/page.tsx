@@ -1,10 +1,6 @@
 import { notFound } from "next/navigation";
-import { getRestaurantBySlug, getAllRestaurants } from "@/lib/restaurants";
+import { getRestaurantBySlug } from "@/lib/restaurants";
 import RestaurantDetailClient from "./RestaurantDetailClient";
-
-export function generateStaticParams() {
-  return getAllRestaurants().map((r) => ({ slug: r.slug }));
-}
 
 export async function generateMetadata({
   params,
