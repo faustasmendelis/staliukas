@@ -12,10 +12,21 @@ const RestaurantMap = dynamic(
 
 function MapSkeleton() {
   return (
-    <div
-      className="w-full rounded-xl bg-muted-bg border border-border animate-pulse flex items-center justify-center"
-      style={{ height: "calc(100vh - 200px)", minHeight: "400px" }}
-    >
+    <div className="w-full rounded-xl bg-muted-bg border border-border animate-pulse flex items-center justify-center map-skeleton">
+      <style>{`
+        .map-skeleton {
+          height: calc(100vh - 200px);
+          height: calc(100dvh - 160px);
+          min-height: 300px;
+        }
+        @media (max-width: 639px) {
+          .map-skeleton {
+            height: calc(100vh - 140px);
+            height: calc(100dvh - 140px);
+            min-height: 250px;
+          }
+        }
+      `}</style>
       <span className="text-muted text-sm">Loading map...</span>
     </div>
   );
@@ -63,8 +74,8 @@ export default function MapPage() {
   }, [t]);
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-4">
+    <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 py-2 sm:py-6">
+      <div className="hidden sm:flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-4">
         <div>
           <h1 className="text-2xl sm:text-3xl font-bold">
             {t("map.title")}
@@ -73,7 +84,7 @@ export default function MapPage() {
         </div>
       </div>
 
-      <div className="flex flex-wrap items-center gap-2 mb-4">
+      <div className="flex flex-wrap items-center gap-1.5 sm:gap-2 mb-2 sm:mb-4">
         {CITIES.map((city) => (
           <Button
             key={city.id}

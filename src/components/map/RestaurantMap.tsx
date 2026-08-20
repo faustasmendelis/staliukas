@@ -106,7 +106,7 @@ export default function RestaurantMap({
   }, [userLocation, selected]);
 
   return (
-    <div className="relative w-full rounded-xl overflow-hidden border border-border" style={{ height: "calc(100vh - 200px)", minHeight: "400px" }}>
+    <div className="relative w-full rounded-xl overflow-hidden border border-border map-container">
       <style>{mapStyles}</style>
 
       <MapContainer
@@ -155,6 +155,20 @@ export default function RestaurantMap({
 }
 
 const mapStyles = `
+  .map-container {
+    height: calc(100vh - 200px);
+    height: calc(100dvh - 160px);
+    min-height: 300px;
+  }
+
+  @media (max-width: 639px) {
+    .map-container {
+      height: calc(100vh - 140px);
+      height: calc(100dvh - 140px);
+      min-height: 250px;
+    }
+  }
+
   .staliukas-pin {
     background: none !important;
     border: none !important;
