@@ -11,9 +11,7 @@ import { getDistanceKm } from "@/lib/geo";
 import MapPopupCard from "./MapPopupCard";
 
 const CITY_CENTERS: Record<string, { lat: number; lng: number; zoom: number }> = {
-  vilnius: { lat: 54.6872, lng: 25.2797, zoom: 13 },
-  kaunas: { lat: 54.8985, lng: 23.9036, zoom: 13 },
-  klaipeda: { lat: 55.7108, lng: 21.1350, zoom: 14 },
+  vilnius: { lat: 54.6872, lng: 25.2797, zoom: 14 },
 };
 
 function createPinIcon(restaurant: Restaurant): L.DivIcon {
@@ -24,30 +22,27 @@ function createPinIcon(restaurant: Restaurant): L.DivIcon {
     return L.divIcon({
       className: "staliukas-pin",
       html: `
-        <div class="pin-container pin-discount">
-          <div class="pin-pulse"></div>
-          <div class="pin-body">
-            <span class="pin-rating">${rating}</span>
-          </div>
-          <div class="pin-badge">-${discount.percentOff}%</div>
+        <div class="pin-card pin-has-discount">
+          <span class="pin-rating">${rating}</span>
+          <span class="pin-discount">-${discount.percentOff}%</span>
+          <div class="pin-arrow"></div>
         </div>
       `,
-      iconSize: [48, 56],
-      iconAnchor: [24, 56],
+      iconSize: [52, 52],
+      iconAnchor: [26, 52],
     });
   }
 
   return L.divIcon({
     className: "staliukas-pin",
     html: `
-      <div class="pin-container">
-        <div class="pin-body pin-regular">
-          <span class="pin-rating">${rating}</span>
-        </div>
+      <div class="pin-card">
+        <span class="pin-rating">${rating}</span>
+        <div class="pin-arrow"></div>
       </div>
     `,
-    iconSize: [40, 48],
-    iconAnchor: [20, 48],
+    iconSize: [40, 40],
+    iconAnchor: [20, 40],
   });
 }
 
@@ -165,77 +160,58 @@ const mapStyles = `
     border: none !important;
   }
 
-  .pin-container {
+  .pin-card {
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-
-  .pin-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 36px;
-    height: 36px;
-    border-radius: 50% 50% 50% 0;
-    transform: rotate(-45deg);
-    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    background: white;
+    border-radius: 6px;
+    padding: 4px 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
     cursor: pointer;
-    transition: transform 0.15s;
+    transition: transform 0.15s, box-shadow 0.15s;
+    min-width: 36px;
+    text-align: center;
   }
 
-  .pin-body:hover {
-    transform: rotate(-45deg) scale(1.15);
+  .pin-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
   }
 
-  .pin-regular {
-    background: #065f46;
-  }
-
-  .pin-discount .pin-body {
-    background: #d97706;
+  .pin-arrow {
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+    margin-left: -6px;
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid white;
   }
 
   .pin-rating {
-    transform: rotate(45deg);
-    color: white;
+    color: #1a1a1a;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 1.2;
+  }
+
+  .pin-discount {
+    color: #16a34a;
     font-size: 11px;
     font-weight: 700;
-    line-height: 1;
+    line-height: 1.1;
   }
 
-  .pin-badge {
-    position: absolute;
-    top: -8px;
-    right: -12px;
-    background: #fef3c7;
-    color: #92400e;
-    font-size: 10px;
-    font-weight: 700;
-    padding: 1px 5px;
-    border-radius: 8px;
-    border: 1.5px solid #d97706;
-    white-space: nowrap;
-    z-index: 10;
+  .pin-has-discount {
+    border: 2px solid #16a34a;
   }
 
-  .pin-pulse {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 36px;
-    height: 36px;
-    margin-top: -18px;
-    margin-left: -18px;
-    border-radius: 50%;
-    background: rgba(217, 119, 6, 0.25);
-    animation: pin-pulse-anim 2s ease-out infinite;
-  }
-
-  @keyframes pin-pulse-anim {
-    0% { transform: scale(1); opacity: 0.4; }
-    100% { transform: scale(2.2); opacity: 0; }
+  .pin-has-discount .pin-arrow {
+    border-top-color: #16a34a;
   }
 
   .user-dot {

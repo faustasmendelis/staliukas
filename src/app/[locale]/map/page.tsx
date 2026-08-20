@@ -22,10 +22,7 @@ function MapSkeleton() {
 }
 
 const CITIES = [
-  { id: "", labelKey: "allCities" as const },
   { id: "vilnius", labelKey: "vilnius" as const },
-  { id: "kaunas", labelKey: "kaunas" as const },
-  { id: "klaipeda", labelKey: "klaipeda" as const },
 ];
 
 export default function MapPage() {

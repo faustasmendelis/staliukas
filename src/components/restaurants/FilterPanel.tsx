@@ -98,32 +98,17 @@ export default function FilterPanel({
         </select>
 
         <select
-          value={filters.city}
-          onChange={(e) => update({ city: e.target.value })}
+          value={filters.neighborhood}
+          onChange={(e) => update({ neighborhood: e.target.value })}
           className="px-3 py-2 rounded-lg border border-border bg-card-bg text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-primary/30"
         >
-          <option value="">{t("filters.allCities")}</option>
-          {CITIES.map((c) => (
-            <option key={c} value={c}>
-              {t(`cities.${c}`)}
+          <option value="">{t("filters.allNeighborhoods")}</option>
+          {NEIGHBORHOODS.map((n) => (
+            <option key={n} value={n}>
+              {t(`neighborhoods.${n}`)}
             </option>
           ))}
         </select>
-
-        {filters.city === "vilnius" && (
-          <select
-            value={filters.neighborhood}
-            onChange={(e) => update({ neighborhood: e.target.value })}
-            className="px-3 py-2 rounded-lg border border-border bg-card-bg text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-primary/30"
-          >
-            <option value="">{t("filters.allNeighborhoods")}</option>
-            {NEIGHBORHOODS.map((n) => (
-              <option key={n} value={n}>
-                {t(`neighborhoods.${n}`)}
-              </option>
-            ))}
-          </select>
-        )}
 
         <select
           value={filters.priceRange}
