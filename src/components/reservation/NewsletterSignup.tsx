@@ -5,7 +5,11 @@ import { useState } from "react";
 import Button from "@/components/ui/Button";
 import Input from "@/components/ui/Input";
 
-export default function NewsletterSignup() {
+interface Props {
+  variant?: "card" | "inline";
+}
+
+export default function NewsletterSignup({ variant = "card" }: Props) {
   const t = useTranslations();
   const [email, setEmail] = useState("");
   const [submitted, setSubmitted] = useState(false);
@@ -35,11 +39,40 @@ export default function NewsletterSignup() {
   };
 
   if (submitted) {
+    if (variant === "inline") {
+      return (
+        <p className="text-sm font-medium text-center">
+          {t("signup.success")} {t("signup.successDesc")}
+        </p>
+      );
+    }
     return (
       <div className="bg-card-bg border border-border rounded-xl p-4 text-center">
         <p className="text-sm font-medium text-primary">{t("signup.success")}</p>
         <p className="text-xs text-muted mt-1">{t("signup.successDesc")}</p>
       </div>
+    );
+  }
+
+  if (variant === "inline") {
+    return (
+      <form onSubmit={handleSubmit} className="flex gap-2">
+        <input
+          type="email"
+          placeholder={t("signup.email")}
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          required
+          className="flex-1 px-3 py-2 rounded-lg bg-white/20 text-white placeholder:text-white/60 border border-white/30 focus:outline-none focus:ring-2 focus:ring-white/50 text-sm"
+        />
+        <button
+          type="submit"
+          disabled={submitting}
+          className="px-4 py-2 bg-white text-primary font-medium rounded-lg text-sm hover:bg-white/90 transition-colors disabled:opacity-50"
+        >
+          {submitting ? "..." : t("signup.submit")}
+        </button>
+      </form>
     );
   }
 

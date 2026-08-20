@@ -140,6 +140,14 @@
     "success": "Ačiū!",
     "successDesc": "Pranešime apie naujienas"
   },
+  "demo": {
+    "banner": "Tai demonstracinė versija — rezervacijos nėra tikros",
+    "badge": "DEMO",
+    "bookingNote": "Tai demo rezervacija — jokių tikrų užsakymų",
+    "successNote": "Tai buvo demo rezervacija. Norite sužinoti, kai paleisime tikrą versiją?",
+    "heroTitle": "Būkite pirmi sužinoję!",
+    "heroSubtitle": "Užsiregistruokite ir pranešime, kai Staliukas bus paruoštas"
+  },
   "partner": {
     "title": "Prisijunkite prie Staliukas",
     "subtitle": "Pasiekite naujus klientus ir užpildykite laisvus stalus ne piko metu",

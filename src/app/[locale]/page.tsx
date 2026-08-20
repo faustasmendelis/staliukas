@@ -7,6 +7,7 @@ import type { VibeTag } from "@/data/types";
 import SearchBar from "@/components/restaurants/SearchBar";
 import FilterPanel from "@/components/restaurants/FilterPanel";
 import RestaurantGrid from "@/components/restaurants/RestaurantGrid";
+import NewsletterSignup from "@/components/reservation/NewsletterSignup";
 
 interface Filters {
   city: string;
@@ -64,6 +65,11 @@ export default function HomePage() {
           </p>
           <div className="max-w-xl mx-auto">
             <SearchBar value={search} onChange={handleSearch} />
+          </div>
+          <div className="max-w-md mx-auto mt-8 bg-white/10 backdrop-blur-sm rounded-xl p-5">
+            <p className="text-sm font-semibold mb-1">{t("demo.heroTitle")}</p>
+            <p className="text-xs text-white/70 mb-3">{t("demo.heroSubtitle")}</p>
+            <NewsletterSignup variant="inline" />
           </div>
         </div>
       </section>

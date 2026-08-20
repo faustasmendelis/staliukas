@@ -140,6 +140,14 @@
     "success": "Thanks!",
     "successDesc": "We'll keep you posted"
   },
+  "demo": {
+    "banner": "This is a demo — reservations are not real",
+    "badge": "DEMO",
+    "bookingNote": "This is a demo booking — no real reservations are made",
+    "successNote": "This was a demo booking. Want to know when we go live?",
+    "heroTitle": "Be the first to know!",
+    "heroSubtitle": "Sign up and we'll let you know when Staliukas is ready"
+  },
   "partner": {
     "title": "Join Staliukas",
     "subtitle": "Reach new customers and fill your off-peak tables",

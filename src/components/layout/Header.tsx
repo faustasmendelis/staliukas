@@ -10,7 +10,11 @@ export default function Header() {
   const { locale } = useParams<{ locale: string }>();
 
   return (
-    <header className="sticky top-0 z-50 bg-card-bg/95 backdrop-blur border-b border-border">
+    <header className="sticky top-0 z-50">
+      <div className="bg-accent text-white text-center text-xs sm:text-sm py-1.5 font-medium">
+        {t("demo.badge")} — {t("demo.banner")}
+      </div>
+      <div className="bg-card-bg/95 backdrop-blur border-b border-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <Link href={`/${locale}`} className="flex items-center gap-2">
@@ -43,6 +47,7 @@ export default function Header() {
 
           <LanguageSwitcher />
         </div>
+      </div>
       </div>
     </header>
   );

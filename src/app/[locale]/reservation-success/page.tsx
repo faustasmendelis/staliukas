@@ -9,6 +9,7 @@ import { getReservation } from "@/lib/reservations";
 import { downloadIcsFile, getGoogleCalendarUrl } from "@/lib/calendar";
 import Button from "@/components/ui/Button";
 import Badge from "@/components/ui/Badge";
+import NewsletterSignup from "@/components/reservation/NewsletterSignup";
 
 function SuccessContent() {
   const t = useTranslations();
@@ -96,6 +97,14 @@ function SuccessContent() {
             </Button>
           </a>
         </div>
+      </div>
+
+      <div className="bg-accent/10 border border-accent/20 rounded-xl p-5 mb-8">
+        <span className="text-[10px] font-bold bg-accent/15 text-accent px-2 py-0.5 rounded-full uppercase tracking-wide">
+          {t("demo.badge")}
+        </span>
+        <p className="text-sm text-muted mt-2 mb-4">{t("demo.successNote")}</p>
+        <NewsletterSignup />
       </div>
 
       <Link href={`/${locale}`}>

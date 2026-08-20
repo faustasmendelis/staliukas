@@ -100,7 +100,13 @@ export default function ReservationForm({ restaurant }: ReservationFormProps) {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-4">
-      <h2 className="text-lg font-semibold">{t("reservation.title")}</h2>
+      <div className="flex items-center gap-2">
+        <h2 className="text-lg font-semibold">{t("reservation.title")}</h2>
+        <span className="text-[10px] font-bold bg-accent/15 text-accent px-2 py-0.5 rounded-full uppercase tracking-wide">
+          {t("demo.badge")}
+        </span>
+      </div>
+      <p className="text-xs text-muted -mt-2">{t("demo.bookingNote")}</p>
 
       <Input
         label={t("reservation.date")}
