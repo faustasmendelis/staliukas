@@ -13,10 +13,10 @@
     "address": "Dominikonų g. 11, Vilnius 01131",
     "phone": "+370 5 238 6044",
     "priceRange": 3,
-    "rating": 4,
-    "reviewCount": 289,
+    "rating": 4.7,
+    "reviewCount": 470,
     "images": [
-      "https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?w=800&h=500&fit=crop",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnPwIO5mDd7Vm_qyAbGy9kWidOFH6Z0XincH991TT8jmskVcznVAv662DiHwvhgdRn00bLDoYzcahQfq-IrWdyylJn3Vzo64S6AFzvL7-eK2eSZLihXZJI99niNx_IboWtoRltLVw=w600-h400-k-no",
       "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&h=500&fit=crop",
       "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&h=500&fit=crop"
     ],
@@ -86,13 +86,13 @@
     "cuisine": "lithuanian",
     "city": "vilnius",
     "neighborhood": "naujamiestis",
-    "address": "Vilniaus g. 28, Vilnius 01402",
+    "address": "Vilniaus g. 28, Vilnius 01144",
     "phone": "+370 5 356 3845",
     "priceRange": 3,
-    "rating": 4,
-    "reviewCount": 258,
+    "rating": 4.6,
+    "reviewCount": 1348,
     "images": [
-      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=500&fit=crop",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmQsF2DD7-hZ-hNXchbv4RylQLm4P3gDy2ykknht62R9CVs5X1yCS9dayFQlDExhND7IrJQxO5IHE9z8VZcin80sluOXZQ2WkXynBlHoHjgj_B0X991v0ZtMx50_hljixKUOsmD=w600-h400-k-no",
       "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&h=500&fit=crop",
       "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&h=500&fit=crop"
     ],
@@ -162,10 +162,10 @@
     "address": "Pilies g. 34, Vilnius 01403",
     "phone": "+370 5 475 1645",
     "priceRange": 3,
-    "rating": 4,
-    "reviewCount": 226,
+    "rating": 4.9,
+    "reviewCount": 1186,
     "images": [
-      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=500&fit=crop",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWljexhWxO-AFTQlqwc9OzMRM9yeKNiZpFH6KzEkgzd8es8Cf7Pyrq3AD-XCZoeTBYaDIRALRiID8zAbMR2gufdUTXdVSokv19iqL1l7I0xodTdwIYmeHKIvWmlKpnwH7sTEx9Ni=w600-h400-k-no",
       "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&h=500&fit=crop",
       "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&h=500&fit=crop"
     ],
@@ -253,10 +253,10 @@
     "address": "Pilies g. 2, Vilnius 01124",
     "phone": "+370 5 593 8446",
     "priceRange": 2,
-    "rating": 4,
-    "reviewCount": 194,
+    "rating": 4.5,
+    "reviewCount": 5001,
     "images": [
-      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=500&fit=crop",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkImeeHg4fSJRFnHarVL7VPC_wqInPihxo6NInHHFZmH_Zmiz6gOwQBH33-U3cTLxxUlY5eOcf6nzvn1e9bFPCX27q3_eD8cGzz0QCYhGeo--mEeI3HyhkiGzG_KahvrIoYNS0=w600-h400-k-no",
       "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&h=500&fit=crop",
       "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&h=500&fit=crop"
     ],
@@ -347,10 +347,10 @@
     "address": "Aušros Vartų g. 6, Vilnius 01304",
     "phone": "+370 5 711 6246",
     "priceRange": 1,
-    "rating": 4,
-    "reviewCount": 163,
+    "rating": 4.5,
+    "reviewCount": 3000,
     "images": [
-      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=500&fit=crop",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl3BX4eav08q5My7Ktss1JOOk46lkPimYzCLlrQafLPsflrXR9lvTwLBMnNgJIKTH6ub8bvenOljDc7pD0jLUiKawB3YjgD7yj-OrkTdYYo-cBYo-pofNo6uS6QBsTsAV5JIe3yjZ8OERGe=w600-h400-k-no",
       "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&h=500&fit=crop",
       "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&h=500&fit=crop"
     ],
@@ -421,13 +421,13 @@
     "cuisine": "lithuanian",
     "city": "vilnius",
     "neighborhood": "uzupis",
-    "address": "Polocko g. 7A, Vilnius 01205",
+    "address": "Šv. Mikalojaus g. 15, Vilnius 01133",
     "phone": "+370 5 830 4047",
     "priceRange": 1,
-    "rating": 4,
-    "reviewCount": 131,
+    "rating": 4.5,
+    "reviewCount": 5984,
     "images": [
-      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=500&fit=crop",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnJqQQWcUkYYOHI6jCL1sNA_Bho1pzVP0ph1O3FkiibYkByt2MlDdAl074i9j8_NO71WchHX5HY1qV4GYKL-Iz3m9SqekUPZdOl-sKcHMut7l5N9qg9M8Xn1T2mpuVoasatbeB9rMu1O_lM=w600-h400-k-no",
       "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&h=500&fit=crop",
       "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&h=500&fit=crop"
     ],
@@ -475,8 +475,8 @@
       "sunday": "10:00-22:00"
     },
     "coordinates": {
-      "lat": 54.6779,
-      "lng": 25.2825
+      "lat": 54.679,
+      "lng": 25.285
     },
     "vibeTags": [
       "terrace",
@@ -497,10 +497,10 @@
     "address": "Mėsinių g. 4-3, Vilnius 01135",
     "phone": "+370 5 948 1847",
     "priceRange": 2,
-    "rating": 4,
-    "reviewCount": 99,
+    "rating": 4.6,
+    "reviewCount": 4335,
     "images": [
-      "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&h=500&fit=crop",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk4k0ixXUc9FkZcLUTD9lh8ZTXOKryEZW15y6Cvu448ApjYyTOInIWfmBn5A4YvhPF6A7-zs_K1FzvewZ84Y4FXTL88dH09gQ15oI6FQISGxcZrxi7td-ii0do8gfQC_BY9aGpQ=w600-h400-k-no",
       "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=500&fit=crop",
       "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&h=500&fit=crop"
     ],
@@ -588,10 +588,10 @@
     "address": "Šv. Jono g. 7, Vilnius 01123",
     "phone": "+370 5 167 8647",
     "priceRange": 3,
-    "rating": 4,
-    "reviewCount": 467,
+    "rating": 4.7,
+    "reviewCount": 1716,
     "images": [
-      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=500&fit=crop",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk-_piTMc7wdrjmmAjpnjAQMzX4LQoSwG3KZsaNbxsaqxGyU0zmUR5xI0Fc8dsiNyW_9lX35x69_WwtdL9ARNSKaKiFVtk7chDVyRlzoFKX9savT2aZrmpKXTFKOo4xa_dUQ5o=w600-h400-k-no",
       "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&h=500&fit=crop",
       "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&h=500&fit=crop"
     ],
@@ -673,10 +673,10 @@
     "address": "Didžioji g. 7, Vilnius 01128",
     "phone": "+370 5 285 6448",
     "priceRange": 3,
-    "rating": 4,
-    "reviewCount": 436,
+    "rating": 4.6,
+    "reviewCount": 187,
     "images": [
-      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=500&fit=crop",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkwMMn1TRY83dpaWrv1N5D9M2Tfv5El2wBEeBaUo6-H5YGq1FEGTDH5pMNiBJoaJZ9RyElClCj1qtvTkxKrtW6y82G9ibOgSSbbswGUgSx1iayqJTZr0XZe-5IJHc7PNrtpmrMg=w600-h400-k-no",
       "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800&h=500&fit=crop",
       "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&h=500&fit=crop"
     ],
@@ -763,10 +763,10 @@
     "address": "Polocko g. 18, Vilnius 01205",
     "phone": "+370 5 403 4248",
     "priceRange": 2,
-    "rating": 4,
-    "reviewCount": 404,
+    "rating": 4.7,
+    "reviewCount": 762,
     "images": [
-      "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800&h=500&fit=crop",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkf48QDrZAj4FCF2lBd-KuszV9ZsuCu2O6nl3vyRzPi2G7G-wP2_1RW7QIyW3XoczAju08ueUoUvvRhofSzgzUOHWHy0AwheZx8DrMF7IEeokP9IQNHMzhnbPg1p45hqWRkc1G_YcsEeWdS=w600-h400-k-no",
       "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&h=500&fit=crop",
       "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&h=500&fit=crop"
     ],
@@ -844,10 +844,10 @@
     "address": "Totorių g. 1, Vilnius 01121",
     "phone": "+370 5 522 2049",
     "priceRange": 2,
-    "rating": 4,
-    "reviewCount": 372,
+    "rating": 4.7,
+    "reviewCount": 1135,
     "images": [
-      "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&h=500&fit=crop",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn8nSBtEEo38UcXqSCt2YOaH0_8NvGiOFgWDDc590Y6xXARK4cWeJUh7NokAetHVFtp5lARdSi_1W8Xv4V5EzbidkTxZ552lZDbm-kOwgCYSjyq6zTGF3ddjnU0lRPlNSKK9r3wbg=w600-h400-k-no",
       "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800&h=500&fit=crop",
       "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=500&fit=crop"
     ],
@@ -921,10 +921,10 @@
     "address": "Vilniaus g. 23, Vilnius 01119",
     "phone": "+370 5 640 8849",
     "priceRange": 2,
-    "rating": 4,
-    "reviewCount": 341,
+    "rating": 4.6,
+    "reviewCount": 1014,
     "images": [
-      "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&h=500&fit=crop",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmBVQbjwDakSJQK_X_0vSMJXJR8O8277tWh9zpH0lteq1tPQ7osjrIJdp3cXg8O_el7eef0W25SNw2SN2Icm8bxuUrEQ4HT4Uzzo8MtlBGwPPwoM4L4GSj0WBFWaLgJVQpWzDo=w600-h400-k-no",
       "https://images.unsplash.com/photo-1498579150354-977475b7ea0b?w=800&h=500&fit=crop",
       "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=800&h=500&fit=crop"
     ],
@@ -1006,10 +1006,10 @@
     "address": "Vokiečių g. 18, Vilnius 01130",
     "phone": "+370 5 759 6650",
     "priceRange": 3,
-    "rating": 4,
-    "reviewCount": 309,
+    "rating": 5,
+    "reviewCount": 25,
     "images": [
-      "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=800&h=500&fit=crop",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkU9kfw7jwkqaYcalTe2T6f1tfoQeTD-4bjmQcMr5B4hnAq3O6NdPranv477OPrHnjVt_UNnMC7DEXTJfS4PJw3LFqTBW6UJo2GzG7uCHXlX3sb3DNDXkgQNF6lOxzVMQGCeg9Z=w600-h400-k-no",
       "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&h=500&fit=crop",
       "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&h=500&fit=crop"
     ],
@@ -1096,10 +1096,10 @@
     "address": "Aukštaičių g. 7, Vilnius 11341",
     "phone": "+370 5 877 4450",
     "priceRange": 2,
-    "rating": 4,
-    "reviewCount": 277,
+    "rating": 4.6,
+    "reviewCount": 566,
     "images": [
-      "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&h=500&fit=crop",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmwHDc6_fErxxoVU8MNkhJLrzuuEYYWSLpLC-2MCYrrPGEmWn9mGLYAXjdQVKcsxGysyI43BsDHbxKhHUZ7YnQIWYo7wYo6CWBqmT3-zADARFw1tIisp79B6IIG8z3LXZyvtTaLGA=w600-h400-k-no",
       "https://images.unsplash.com/photo-1498579150354-977475b7ea0b?w=800&h=500&fit=crop",
       "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=800&h=500&fit=crop"
     ],
@@ -1168,10 +1168,10 @@
     "address": "Dominikonų g. 11, Vilnius 01131",
     "phone": "+370 5 995 2251",
     "priceRange": 3,
-    "rating": 4,
-    "reviewCount": 246,
+    "rating": 4.3,
+    "reviewCount": 350,
     "images": [
-      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=500&fit=crop",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlEO1VSgxu2u4o38KVUEOWxIVkmwIgIB527kXjdBAaWTW-uf5mQTlyfXNvRpDI4ndOuLik8aGIYEGBSBCl7kq1PDAWrmrOlk8mr7RXdpFHZpqFoxjQIyTu2pLXfwzAwfGkSEQtMLPtYiu60=w600-h400-k-no",
       "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800&h=500&fit=crop",
       "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&h=500&fit=crop"
     ],
@@ -1245,10 +1245,10 @@
     "address": "Vilniaus g. 23, Vilnius 01119",
     "phone": "+370 5 214 9051",
     "priceRange": 2,
-    "rating": 4,
-    "reviewCount": 214,
+    "rating": 4.6,
+    "reviewCount": 907,
     "images": [
-      "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&h=500&fit=crop",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn6Zkdt8D-BBkNGSZZCCcIp_1JXzSbnHWbrkRZw-8Tov-IpbzppsmZvxSgv8X7Pv-6i48hQPerH6AdWd173mIYYIvgYtVsVIBSmvI3w3O6viUUPHSfCReMYmf9iN3dr8UGNhak=w600-h400-k-no",
       "https://images.unsplash.com/photo-1498579150354-977475b7ea0b?w=800&h=500&fit=crop",
       "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&h=500&fit=crop"
     ],
@@ -1326,10 +1326,10 @@
     "address": "Gaono g. 7, Vilnius 01131",
     "phone": "+370 5 332 6851",
     "priceRange": 2,
-    "rating": 4,
-    "reviewCount": 182,
+    "rating": 4.5,
+    "reviewCount": 589,
     "images": [
-      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=500&fit=crop",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmHO6P-KLemF3ZHVytzdH7jf5WhG6kMXmX0aBEen0FfC6Sne4TBgjFt8m0uonXOhFE6PXbhXlfjcmIQOqo8AbXPurXh2btiDMZMyYTKOxqyFXxLcVTqLa1ULmnVazhjqC5n3eSw=w600-h400-k-no",
       "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&h=500&fit=crop",
       "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&h=500&fit=crop"
     ],
@@ -1407,10 +1407,10 @@
     "address": "Gedimino pr. 37, Vilnius 01110",
     "phone": "+370 5 450 4652",
     "priceRange": 3,
-    "rating": 4,
-    "reviewCount": 151,
+    "rating": 4.8,
+    "reviewCount": 47,
     "images": [
-      "https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?w=800&h=500&fit=crop",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWktT7r3R0kFrIXiE3IZyEA5XAdWr5aLhwsYqMH0fMfoJA2OLil6Pxtfr10zm-H7PBbyBXSrmkCSIiiCf6dEpjw_YkG5SxDjLqnjUYoeMyvwhbmE5ahqyNXA3p_o2dLOcbT_AfbrqjiwfhI=w600-h400-k-no",
       "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&h=500&fit=crop",
       "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&h=500&fit=crop"
     ],
@@ -1493,10 +1493,10 @@
     "address": "T. Ševčenkos g. 16A, Vilnius 03111",
     "phone": "+370 5 569 2452",
     "priceRange": 3,
-    "rating": 4,
-    "reviewCount": 119,
+    "rating": 4.3,
+    "reviewCount": 136,
     "images": [
-      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=500&fit=crop",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnJ4xU55ShKcKQm3CoUt2BV9wUE-L-pnL5WIm7wl6agxnGxQtwTcH3NB-Qz8EjqqF24J5jebNjfku4g6AhSTWOZKNck3-oem9S7dUIKHWBxAkycNcIQ_of9NaALUqaOvh_Cj3u1pptetoM=w600-h400-k-no",
       "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800&h=500&fit=crop",
       "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&h=500&fit=crop"
     ],
@@ -1578,10 +1578,10 @@
     "address": "Didžioji g. 34, Vilnius 01128",
     "phone": "+370 5 687 9253",
     "priceRange": 2,
-    "rating": 4,
-    "reviewCount": 87,
+    "rating": 4.7,
+    "reviewCount": 1163,
     "images": [
-      "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&h=500&fit=crop",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlRsK3y7DK5F8GKpCwht0JbL3Dzxy2ExqsbFdj-SS7Fvwa4HBEeqSeI9qB3VKGB3XD-JuLBok_P0ofzoQjJS0jsr-hbL-oUc0VewpgyknpPTONLWikl2qKE5-ZfMK7-Sj3rleNx=w600-h400-k-no",
       "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&h=500&fit=crop",
       "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&h=500&fit=crop"
     ],
