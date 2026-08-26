@@ -3792,10 +3792,10 @@
     },
     "cuisine": "lithuanian",
     "city": "vilnius",
-    "neighborhood": "senamiestis",
-    "address": "Aušros Vartų g. 6, Vilnius",
-    "phone": "+370 5 227 8925",
-    "priceRange": 2,
+    "neighborhood": "naujamiestis",
+    "address": "Naugarduko g. 36, Vilnius",
+    "phone": "+370 609 99002",
+    "priceRange": 1,
     "rating": 4.3,
     "reviewCount": 530,
     "images": [
@@ -3838,11 +3838,11 @@
       "sunday": "10:00-21:00"
     },
     "coordinates": {
-      "lat": 54.683964,
-      "lng": 25.289047
+      "lat": 54.673,
+      "lng": 25.2718
     },
     "vibeTags": [
-      "natural-wine"
+      "business-lunch"
     ],
     "offPeakDiscount": {
       "percentOff": 25,
@@ -5217,5 +5217,378 @@
         "en": "10% off lunch"
       }
     }
+  },
+  {
+    "id": "69",
+    "slug": "ilunch-cyber-city",
+    "name": "iLunch Cyber City",
+    "description": {
+      "lt": "Greiti ir kokybiški dienos pietūs Cyber City verslo centre. Kasdien atnaujinamas meniu su sriubomis, karštais patiekalais ir salotomis.",
+      "en": "Fast quality daily lunch in the Cyber City business hub. Daily updated menu with soups, hot dishes and salads."
+    },
+    "cuisine": "international",
+    "city": "vilnius",
+    "neighborhood": "naujamiestis",
+    "address": "Švitrigailos g. 34, Vilnius",
+    "phone": "+370 5 210 0000",
+    "priceRange": 1,
+    "rating": 4.1,
+    "reviewCount": 320,
+    "images": [
+      "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&h=500&fit=crop"
+    ],
+    "menuHighlights": [
+      {
+        "lt": "Dienos sriuba",
+        "en": "Daily soup"
+      },
+      {
+        "lt": "Karštas patiekalas su ryžiais",
+        "en": "Hot dish with rice"
+      },
+      {
+        "lt": "Šviežios salotos",
+        "en": "Fresh salads"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Tomas R.",
+        "rating": 4,
+        "date": "2026-07-15",
+        "text": {
+          "lt": "Greiti ir skanūs pietūs. Puikus pasirinkimas darbo dienomis.",
+          "en": "Fast and tasty lunch. Great choice for workdays."
+        }
+      }
+    ],
+    "openingHours": {
+      "monday": "11:00-15:00",
+      "tuesday": "11:00-15:00",
+      "wednesday": "11:00-15:00",
+      "thursday": "11:00-15:00",
+      "friday": "11:00-15:00",
+      "saturday": "closed",
+      "sunday": "closed"
+    },
+    "coordinates": {
+      "lat": 54.6757,
+      "lng": 25.2838
+    },
+    "vibeTags": [
+      "business-lunch"
+    ]
+  },
+  {
+    "id": "70",
+    "slug": "wrap-house",
+    "name": "Wrap House",
+    "description": {
+      "lt": "Šviežiai paruošti wrapai, burgeriai ir kebabai. Greitas ir sotus pasirinkimas pietums.",
+      "en": "Freshly made wraps, burgers and kebabs. Quick and filling lunch choice."
+    },
+    "cuisine": "international",
+    "city": "vilnius",
+    "neighborhood": "naujamiestis",
+    "address": "Švitrigailos g. 32, Vilnius",
+    "phone": "+370 625 37000",
+    "priceRange": 1,
+    "rating": 4.1,
+    "reviewCount": 54,
+    "images": [
+      "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=800&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&h=500&fit=crop"
+    ],
+    "menuHighlights": [
+      {
+        "lt": "Vištienos wrapas",
+        "en": "Chicken wrap"
+      },
+      {
+        "lt": "Jautienos kebabas",
+        "en": "Beef kebab"
+      },
+      {
+        "lt": "Halloumi wrapas",
+        "en": "Halloumi wrap"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Milda S.",
+        "rating": 5,
+        "date": "2026-06-20",
+        "text": {
+          "lt": "Labai skanu ir greita. Puikus pasirinkimas pietums šalia darbo.",
+          "en": "Very tasty and fast. Great lunch option near work."
+        }
+      }
+    ],
+    "openingHours": {
+      "monday": "10:00-21:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "10:00-21:00",
+      "thursday": "10:00-21:00",
+      "friday": "10:00-21:00",
+      "saturday": "10:00-21:00",
+      "sunday": "10:00-21:00"
+    },
+    "coordinates": {
+      "lat": 54.676,
+      "lng": 25.283
+    },
+    "vibeTags": [
+      "business-lunch"
+    ]
+  },
+  {
+    "id": "71",
+    "slug": "fresh-post",
+    "name": "Fresh Post",
+    "description": {
+      "lt": "Sveiki ir šviežiai paruošti pietūs: salotos, sriubos, karšti patiekalai. Kasdien nauja meniu.",
+      "en": "Healthy freshly prepared lunches: salads, soups, hot dishes. New menu every day."
+    },
+    "cuisine": "international",
+    "city": "vilnius",
+    "neighborhood": "naujamiestis",
+    "address": "Švitrigailos g. 36, Vilnius",
+    "phone": "+370 5 210 0001",
+    "priceRange": 1,
+    "rating": 4.2,
+    "reviewCount": 180,
+    "images": [
+      "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1547592180-85f173990554?w=800&h=500&fit=crop"
+    ],
+    "menuHighlights": [
+      {
+        "lt": "Dienos sriuba",
+        "en": "Daily soup"
+      },
+      {
+        "lt": "Buddha lėkštė",
+        "en": "Buddha bowl"
+      },
+      {
+        "lt": "Šviežiai spausta sultys",
+        "en": "Fresh pressed juice"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Laura B.",
+        "rating": 4,
+        "date": "2026-07-02",
+        "text": {
+          "lt": "Sveikas ir skanus maistas. Gera kaina.",
+          "en": "Healthy and tasty food. Good price."
+        }
+      }
+    ],
+    "openingHours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-18:00",
+      "saturday": "closed",
+      "sunday": "closed"
+    },
+    "coordinates": {
+      "lat": 54.6753,
+      "lng": 25.2842
+    },
+    "vibeTags": [
+      "business-lunch"
+    ]
+  },
+  {
+    "id": "72",
+    "slug": "zemaiciu-asotis",
+    "name": "Žemaičių Ąsotis",
+    "description": {
+      "lt": "Tradicinė žemaitiška virtuvė jaukioje aplinkoje. Cepelinai, bulviniai blynai ir naminė gira.",
+      "en": "Traditional Samogitian cuisine in a cozy setting. Cepelinai, potato pancakes and homemade kvass."
+    },
+    "cuisine": "lithuanian",
+    "city": "vilnius",
+    "neighborhood": "naujamiestis",
+    "address": "Naugarduko g. 32, Vilnius",
+    "phone": "+370 5 233 6767",
+    "priceRange": 1,
+    "rating": 4.3,
+    "reviewCount": 1229,
+    "images": [
+      "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&h=500&fit=crop"
+    ],
+    "menuHighlights": [
+      {
+        "lt": "Cepelinai su mėsa",
+        "en": "Cepelinai with meat"
+      },
+      {
+        "lt": "Bulviniai blynai",
+        "en": "Potato pancakes"
+      },
+      {
+        "lt": "Kugelis su spirgučiais",
+        "en": "Potato pudding with cracklings"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Rūta G.",
+        "rating": 5,
+        "date": "2026-05-18",
+        "text": {
+          "lt": "Puikūs cepelinai! Tikra lietuviška virtuvė.",
+          "en": "Excellent cepelinai! Authentic Lithuanian cuisine."
+        }
+      }
+    ],
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-23:00",
+      "saturday": "11:00-23:00",
+      "sunday": "11:00-21:00"
+    },
+    "coordinates": {
+      "lat": 54.67486,
+      "lng": 25.27038
+    },
+    "vibeTags": [
+      "business-lunch"
+    ]
+  },
+  {
+    "id": "73",
+    "slug": "kinu-roze",
+    "name": "Kinų Rožė",
+    "description": {
+      "lt": "Autentiška kiniška virtuvė Vilniuje. Verslo pietūs su sriuba, karštu patiekalu, ryžiais ir salotomis.",
+      "en": "Authentic Chinese cuisine in Vilnius. Business lunch with soup, hot dish, rice and salad."
+    },
+    "cuisine": "international",
+    "city": "vilnius",
+    "neighborhood": "naujamiestis",
+    "address": "Kauno g. 15, Vilnius",
+    "phone": "+370 5 212 7890",
+    "priceRange": 2,
+    "rating": 4.1,
+    "reviewCount": 1229,
+    "images": [
+      "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=800&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1563245372-f21724e3856d?w=800&h=500&fit=crop"
+    ],
+    "menuHighlights": [
+      {
+        "lt": "Kung Pao vištiena",
+        "en": "Kung Pao chicken"
+      },
+      {
+        "lt": "Antienos filė saldžiarūgščiu padažu",
+        "en": "Duck fillet in sweet-sour sauce"
+      },
+      {
+        "lt": "Miso sriuba",
+        "en": "Miso soup"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Paulius V.",
+        "rating": 4,
+        "date": "2026-06-10",
+        "text": {
+          "lt": "Labai geri verslo pietūs. Didelės porcijos.",
+          "en": "Very good business lunch. Large portions."
+        }
+      }
+    ],
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-23:00",
+      "saturday": "12:00-23:00",
+      "sunday": "12:00-21:00"
+    },
+    "coordinates": {
+      "lat": 54.6743,
+      "lng": 25.279
+    },
+    "vibeTags": [
+      "business-lunch"
+    ]
+  },
+  {
+    "id": "74",
+    "slug": "la-tavola",
+    "name": "La Tavola",
+    "description": {
+      "lt": "Itališka virtuvė su šviežiais ingredientais. Pasta, pica ir itališki vynai.",
+      "en": "Italian cuisine with fresh ingredients. Pasta, pizza and Italian wines."
+    },
+    "cuisine": "italian",
+    "city": "vilnius",
+    "neighborhood": "naujamiestis",
+    "address": "Kauno g. 7, Vilnius",
+    "phone": "+370 5 213 4567",
+    "priceRange": 2,
+    "rating": 4.4,
+    "reviewCount": 380,
+    "images": [
+      "https://images.unsplash.com/photo-1498579150354-977475b7ea0b?w=800&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&h=500&fit=crop"
+    ],
+    "menuHighlights": [
+      {
+        "lt": "Pasta carbonara",
+        "en": "Pasta carbonara"
+      },
+      {
+        "lt": "Margherita pica",
+        "en": "Margherita pizza"
+      },
+      {
+        "lt": "Tiramisu",
+        "en": "Tiramisu"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Greta M.",
+        "rating": 5,
+        "date": "2026-07-20",
+        "text": {
+          "lt": "Geriausia itališka virtuvė rajone! Labai rekomenduoju.",
+          "en": "Best Italian food in the area! Highly recommend."
+        }
+      }
+    ],
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-23:00",
+      "saturday": "12:00-23:00",
+      "sunday": "12:00-21:00"
+    },
+    "coordinates": {
+      "lat": 54.6748,
+      "lng": 25.277
+    },
+    "vibeTags": [
+      "business-lunch",
+      "terrace"
+    ]
   }
 ]

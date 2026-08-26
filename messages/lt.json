@@ -132,6 +132,15 @@
     "locationDenied": "Prieiga prie vietos atmesta",
     "allCities": "Visi miestai"
   },
+  "lunch": {
+    "title": "Pietų pasiūlymai",
+    "subtitle": "Šiandienos pietų pasiūlymai šalia jūsų",
+    "nav": "Pietūs",
+    "nearMe": "Šalia manęs",
+    "today": "šiandien",
+    "noDeals": "Šiandien pietų pasiūlymų dar nėra",
+    "noDealsDesc": "Restoranai skelbia pasiūlymus ryte"
+  },
   "signup": {
     "comingSoon": "Greitai!",
     "subtitle": "Įveskite el. paštą, jei norite sužinoti apie naujienas",

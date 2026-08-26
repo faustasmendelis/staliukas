@@ -9,7 +9,7 @@ const LunchDealMap = dynamic(
   {
     ssr: false,
     loading: () => (
-      <div className="w-full h-full bg-muted-bg animate-pulse flex items-center justify-center">
+      <div className="w-full bg-muted-bg animate-pulse flex items-center justify-center lunch-skeleton">
         <span className="text-muted text-sm">Loading map...</span>
       </div>
     ),
@@ -28,7 +28,7 @@ const OFFICE_AREAS = [
 
 const STORAGE_KEY = "staliukas_office";
 
-export default function HomePage() {
+export default function LunchPage() {
   const t = useTranslations();
   const [userLocation, setUserLocation] = useState<{
     lat: number;
@@ -86,10 +86,22 @@ export default function HomePage() {
   }, [t]);
 
   return (
-    <div className="flex flex-col h-[calc(100dvh-56px)]">
-      {/* Office selector bar */}
-      <div className="px-3 sm:px-6 py-2 sm:py-3 bg-card-bg border-b border-border">
-        <div className="flex items-center gap-1.5 overflow-x-auto -mx-3 px-3 sm:mx-0 sm:px-0 scrollbar-hide">
+    <div className="flex flex-col h-[calc(100dvh-88px)] sm:h-[calc(100dvh-96px)]">
+      {/* Header */}
+      <div className="px-3 sm:px-6 pt-2 sm:pt-4 pb-2 sm:pb-3">
+        <div className="flex items-center justify-between mb-2 sm:mb-3">
+          <div>
+            <h1 className="text-xl sm:text-2xl font-bold">
+              {t("lunch.title")}
+            </h1>
+            <p className="text-muted text-xs sm:text-sm mt-0.5">
+              {t("lunch.subtitle")}
+            </p>
+          </div>
+        </div>
+
+        {/* Office selector + near me */}
+        <div className="flex items-center gap-1.5 overflow-x-auto pb-1 -mx-3 px-3 sm:mx-0 sm:px-0 scrollbar-hide">
           <button
             onClick={handleNearMe}
             disabled={locating}
@@ -99,7 +111,7 @@ export default function HomePage() {
                 : "border-border text-muted hover:border-primary/50"
             }`}
           >
-            {locating ? "..." : t("lunch.nearMe")}
+            📍 {locating ? "..." : t("lunch.nearMe")}
           </button>
 
           <div className="w-px h-5 bg-border shrink-0" />

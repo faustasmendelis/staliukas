@@ -132,6 +132,15 @@
     "locationDenied": "Location access denied",
     "allCities": "All cities"
   },
+  "lunch": {
+    "title": "Lunch Deals",
+    "subtitle": "Today's lunch specials near you",
+    "nav": "Lunch",
+    "nearMe": "Near me",
+    "today": "today",
+    "noDeals": "No lunch deals yet today",
+    "noDealsDesc": "Restaurants post their deals in the morning"
+  },
   "signup": {
     "comingSoon": "Coming soon!",
     "subtitle": "Enter your email to hear about updates",

@@ -2,7 +2,8 @@
 
 import { useTranslations, useLocale } from "next-intl";
 import Link from "next/link";
-import type { Restaurant } from "@/data/types";
+import type { Restaurant, OffPeakDiscount } from "@/data/types";
+import { useLiveDiscounts } from "@/lib/hooks/useLiveDiscounts";
 import Badge from "@/components/ui/Badge";
 import StarRating from "@/components/ui/StarRating";
 import RestaurantGallery from "@/components/restaurants/RestaurantGallery";
@@ -17,7 +18,23 @@ interface Props {
 export default function RestaurantDetailClient({ restaurant }: Props) {
   const t = useTranslations();
   const locale = useLocale() as "lt" | "en";
-  const r = restaurant;
+  const liveDiscounts = useLiveDiscounts();
+  const liveForThis = liveDiscounts.get(restaurant.slug);
+
+  const r = liveForThis && liveForThis.length > 0
+    ? {
+        ...restaurant,
+        offPeakDiscount: {
+          startTime: liveForThis[0].start_time,
+          endTime: liveForThis[0].end_time,
+          percentOff: liveForThis[0].percent_off,
+          label: {
+            lt: liveForThis[0].label_lt ?? `${liveForThis[0].percent_off}% nuolaida`,
+            en: liveForThis[0].label_en ?? `${liveForThis[0].percent_off}% off`,
+          },
+        } satisfies OffPeakDiscount,
+      }
+    : restaurant;
 
   const days = [
     "monday",

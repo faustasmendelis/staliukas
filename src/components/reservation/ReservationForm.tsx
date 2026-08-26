@@ -1,7 +1,7 @@
 "use client";
 
 import { useTranslations, useLocale } from "next-intl";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import type { Restaurant, Reservation } from "@/data/types";
 import { saveReservation } from "@/lib/reservations";
@@ -14,13 +14,9 @@ interface ReservationFormProps {
   restaurant: Restaurant;
 }
 
-function generateTimeSlots(): string[] {
-  const slots: string[] = [];
-  for (let h = 11; h <= 21; h++) {
-    slots.push(`${h.toString().padStart(2, "0")}:00`);
-    slots.push(`${h.toString().padStart(2, "0")}:30`);
-  }
-  return slots;
+interface SlotAvailability {
+  time: string;
+  available_seats: number;
 }
 
 function isInDiscountWindow(
@@ -45,13 +41,49 @@ export default function ReservationForm({ restaurant }: ReservationFormProps) {
   const [specialRequests, setSpecialRequests] = useState("");
   const [showPayment, setShowPayment] = useState(false);
   const [errors, setErrors] = useState<Record<string, string>>({});
+  const [slots, setSlots] = useState<SlotAvailability[]>([]);
+  const [submitting, setSubmitting] = useState(false);
 
-  const timeSlots = generateTimeSlots();
   const discount = restaurant.offPeakDiscount;
   const selectedSlotHasDiscount =
-    discount && time && isInDiscountWindow(time, discount.startTime, discount.endTime);
+    discount &&
+    time &&
+    isInDiscountWindow(time, discount.startTime, discount.endTime);
 
   const today = new Date().toISOString().split("T")[0];
+
+  useEffect(() => {
+    if (!date) return;
+
+    async function fetchAvailability() {
+      try {
+        const res = await fetch(
+          `/api/availability/${restaurant.slug}?date=${date}`
+        );
+        if (res.ok) {
+          const data = await res.json();
+          setSlots(data.slots);
+        }
+      } catch {
+        // API not available — show all slots as available
+      }
+    }
+
+    fetchAvailability();
+  }, [date, restaurant.slug]);
+
+  // Fallback: generate static slots if API didn't return any
+  const timeSlots: SlotAvailability[] =
+    slots.length > 0
+      ? slots
+      : Array.from({ length: 22 }, (_, i) => {
+          const h = 11 + Math.floor(i / 2);
+          const m = i % 2 === 0 ? "00" : "30";
+          return {
+            time: `${h.toString().padStart(2, "0")}:${m}`,
+            available_seats: 20,
+          };
+        });
 
   const validate = (): boolean => {
     const newErrors: Record<string, string> = {};
@@ -60,7 +92,8 @@ export default function ReservationForm({ restaurant }: ReservationFormProps) {
     if (!partySize) newErrors.partySize = t("reservation.selectPartySize");
     if (!name.trim()) newErrors.name = t("reservation.name");
     if (!phone.trim()) newErrors.phone = t("reservation.phone");
-    if (!email.trim() || !email.includes("@")) newErrors.email = t("reservation.email");
+    if (!email.trim() || !email.includes("@"))
+      newErrors.email = t("reservation.email");
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
   };
@@ -71,7 +104,37 @@ export default function ReservationForm({ restaurant }: ReservationFormProps) {
     setShowPayment(true);
   };
 
-  const handlePaymentComplete = (method: string) => {
+  const handlePaymentComplete = async (method: string) => {
+    setSubmitting(true);
+
+    try {
+      const res = await fetch("/api/bookings", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          restaurant_slug: restaurant.slug,
+          party_size: Number(partySize),
+          booking_time: time,
+          booking_date: date,
+          guest_name: name,
+          email,
+          phone,
+          special_requests: specialRequests || null,
+        }),
+      });
+
+      if (!res.ok) {
+        const err = await res.json();
+        alert(err.error ?? "Booking failed. Please try again.");
+        setShowPayment(false);
+        setSubmitting(false);
+        return;
+      }
+    } catch {
+      // If API fails, fall through to localStorage as fallback
+    }
+
+    // Also save to localStorage for the success page
     const reservation: Reservation = {
       id: crypto.randomUUID(),
       restaurantId: restaurant.id,
@@ -89,13 +152,15 @@ export default function ReservationForm({ restaurant }: ReservationFormProps) {
     };
 
     saveReservation(reservation);
-    router.push(
-      `/${locale}/reservation-success?id=${reservation.id}`
-    );
+    router.push(`/${locale}/reservation-success?id=${reservation.id}`);
   };
 
   if (showPayment) {
-    return <MockPayment onComplete={handlePaymentComplete} />;
+    return (
+      <MockPayment
+        onComplete={handlePaymentComplete}
+      />
+    );
   }
 
   return (
@@ -113,7 +178,10 @@ export default function ReservationForm({ restaurant }: ReservationFormProps) {
         type="date"
         min={today}
         value={date}
-        onChange={(e) => setDate(e.target.value)}
+        onChange={(e) => {
+          setDate(e.target.value);
+          setTime("");
+        }}
         error={errors.date}
       />
 
@@ -125,26 +193,33 @@ export default function ReservationForm({ restaurant }: ReservationFormProps) {
           {timeSlots.map((slot) => {
             const hasDiscount =
               discount &&
-              isInDiscountWindow(slot, discount.startTime, discount.endTime);
+              isInDiscountWindow(slot.time, discount.startTime, discount.endTime);
+            const isFull =
+              partySize && slot.available_seats < Number(partySize);
             return (
               <button
-                key={slot}
+                key={slot.time}
                 type="button"
-                onClick={() => setTime(slot)}
+                disabled={!!isFull}
+                onClick={() => setTime(slot.time)}
                 className={`px-2 py-1.5 rounded-lg text-sm border transition-colors ${
-                  time === slot
+                  isFull
+                    ? "border-border bg-muted-bg text-muted opacity-50 cursor-not-allowed"
+                    : time === slot.time
                     ? "bg-primary text-white border-primary"
                     : hasDiscount
                     ? "border-accent bg-discount-bg text-discount-text hover:border-accent"
                     : "border-border hover:border-primary/50"
                 }`}
               >
-                {slot}
-                {hasDiscount && (
+                {slot.time}
+                {isFull ? (
+                  <span className="block text-[10px]">full</span>
+                ) : hasDiscount ? (
                   <span className="block text-[10px]">
                     -{discount.percentOff}%
                   </span>
-                )}
+                ) : null}
               </button>
             );
           })}
@@ -169,7 +244,10 @@ export default function ReservationForm({ restaurant }: ReservationFormProps) {
             <button
               key={n}
               type="button"
-              onClick={() => setPartySize(String(n))}
+              onClick={() => {
+                setPartySize(String(n));
+                setTime("");
+              }}
               className={`w-10 h-10 rounded-lg border text-sm font-medium transition-colors ${
                 partySize === String(n)
                   ? "bg-primary text-white border-primary"
@@ -221,7 +299,7 @@ export default function ReservationForm({ restaurant }: ReservationFormProps) {
         />
       </div>
 
-      <Button type="submit" size="lg" className="w-full">
+      <Button type="submit" size="lg" className="w-full" disabled={submitting}>
         {t("reservation.submit")}
       </Button>
     </form>

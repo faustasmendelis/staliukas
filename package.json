@@ -6,10 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "bot:dev": "tsx scripts/bot-dev.ts"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.112.3",
     "@types/leaflet": "^1.9.22",
+    "grammy": "^1.45.1",
     "leaflet": "^1.9.4",
     "next": "16.3.1",
     "next-intl": "^4.13.7",
@@ -22,9 +25,11 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "dotenv": "^17.4.2",
     "eslint": "^9",
     "eslint-config-next": "16.3.1",
     "tailwindcss": "^4",
+    "tsx": "^4.23.12",
     "typescript": "^5"
   }
 }

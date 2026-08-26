@@ -1,4 +1,5 @@
-import type { Restaurant, City, CuisineType, Neighborhood, VibeTag } from "@/data/types";
+import type { Restaurant, City, CuisineType, Neighborhood, VibeTag, OffPeakDiscount } from "@/data/types";
+import type { LiveDiscount } from "@/lib/supabase/types";
 import restaurantsData from "@/data/restaurants.json";
 
 const restaurants: Restaurant[] = restaurantsData as Restaurant[];
@@ -18,6 +19,31 @@ export interface RestaurantFilters {
   cuisine?: CuisineType;
   priceRange?: number;
   vibeTags?: VibeTag[];
+}
+
+export function mergeWithLiveDiscounts(
+  restaurants: Restaurant[],
+  liveDiscounts: Map<string, LiveDiscount[]>
+): Restaurant[] {
+  if (liveDiscounts.size === 0) return restaurants;
+
+  return restaurants.map((r) => {
+    const live = liveDiscounts.get(r.slug);
+    if (!live || live.length === 0) return r;
+
+    const newest = live[0];
+    const discount: OffPeakDiscount = {
+      startTime: newest.start_time,
+      endTime: newest.end_time,
+      percentOff: newest.percent_off,
+      label: {
+        lt: newest.label_lt ?? `${newest.percent_off}% nuolaida`,
+        en: newest.label_en ?? `${newest.percent_off}% off`,
+      },
+    };
+
+    return { ...r, offPeakDiscount: discount, _isLiveDiscount: true } as Restaurant & { _isLiveDiscount: boolean };
+  });
 }
 
 export function filterRestaurants(filters: RestaurantFilters): Restaurant[] {
